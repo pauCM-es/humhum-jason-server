@@ -1,4 +1,9 @@
 {
+  "idUserCounter": [
+    {
+      "id": 6
+    }
+  ],
   "genre": [
     {
       "id": 1,
@@ -186,7 +191,6 @@
       "tmdb_id": 37
     }
   ],
-
   "platforms": [
     {
       "id": 203,
@@ -242,6 +246,7 @@
   "titleList": [
     {
       "name": "Breaking Bad",
+      "platform": "netflix",
       "relevance": 445.23,
       "type": "tv_series",
       "id": 3173903,
@@ -253,6 +258,7 @@
     },
     {
       "name": "El Camino: A Breaking Bad Movie",
+      "platform": "netflix",
       "relevance": 169.83,
       "type": "movie",
       "id": 1586594,
@@ -264,6 +270,7 @@
     },
     {
       "name": "No Half Measures: Creating the Final Season of Breaking Bad",
+      "platform": "netflix",
       "relevance": 162.66,
       "type": "movie",
       "id": 1672293,
@@ -275,6 +282,7 @@
     },
     {
       "name": "The Road to El Camino: Behind the Scenes of El Camino: A Breaking Bad Movie",
+      "platform": "hbo",
       "relevance": 125.46,
       "type": "movie",
       "id": 539605,
@@ -286,6 +294,7 @@
     },
     {
       "name": "Breaking Bad Wolf",
+      "platform": "hbo",
       "relevance": 82.63,
       "type": "tv_movie",
       "id": 4146033,
@@ -297,6 +306,7 @@
     },
     {
       "name": "Game of Thrones",
+      "platform": "disney",
       "relevance": 247.98,
       "type": "tv_series",
       "id": 345534,
@@ -305,44 +315,11 @@
       "tmdb_id": 1399,
       "tmdb_type": "tv",
       "image_url": "https://cdn.watchmode.com/posters/0345534_poster_w185.jpg"
-    },
-    {
-      "name": "Avengers: Endgame",
-      "relevance": 199.96,
-      "type": "movie",
-      "id": 1450054,
-      "year": 2019,
-      "result_type": "title",
-      "tmdb_id": 299534,
-      "tmdb_type": "movie",
-      "image_url": "https://cdn.watchmode.com/posters/01450054_poster_w185.jpg"
-    },
-    {
-      "name": "The Hunger Games: Mockingjay - Part 1",
-      "relevance": 199.76,
-      "type": "movie",
-      "id": 1398134,
-      "year": 2014,
-      "result_type": "title",
-      "tmdb_id": 131631,
-      "tmdb_type": "movie",
-      "image_url": "https://cdn.watchmode.com/posters/01398134_poster_w185.jpg"
-    },
-    {
-      "name": "The Hunger Games: Mockingjay - Part 2",
-      "relevance": 199.72,
-      "type": "movie",
-      "id": 1398135,
-      "year": 2015,
-      "result_type": "title",
-      "tmdb_id": 131634,
-      "tmdb_type": "movie",
-      "image_url": "https://cdn.watchmode.com/posters/01398135_poster_w185.jpg"
     }
   ],
   "titleDetaills": [
     {
-      "id": 345531,
+      "id": 3173903,
       "title": "Game of Silence",
       "original_title": "Game of Silence",
       "plot_overview": "A successful Atlanta attorney's long-lost childhood friends unexpectedly reappear after 25 years. When a dark secret they thought they'd buried resurfaces, the brotherhood bands together to right the wrongs of their shared past - a journey that will push the limits of their loyalty and quench their thirst for revenge.",
@@ -354,8 +331,12 @@
       "imdb_id": "tt4074374",
       "tmdb_id": 64482,
       "tmdb_type": "tv",
-      "genres": [7],
-      "genre_names": ["Drama"],
+      "genres": [
+        7
+      ],
+      "genre_names": [
+        "Drama"
+      ],
       "user_rating": 6.9,
       "critic_score": null,
       "us_rating": "TV-14",
@@ -363,13 +344,38 @@
       "backdrop": "https://cdn.watchmode.com/backdrops/0345531_bd_w780.jpg",
       "original_language": "en",
       "similar_titles": [
-        321718, 3100359, 3106024, 3128190, 321720, 399171, 378218, 3121538,
-        3162216, 3128243, 3108741, 323843, 367978, 315402, 333999, 321710,
-        399866, 334891, 3128501, 3131170, 3122882, 369100, 3124926, 348965,
+        321718,
+        3100359,
+        3106024,
+        3128190,
+        321720,
+        399171,
+        378218,
+        3121538,
+        3162216,
+        3128243,
+        3108741,
+        323843,
+        367978,
+        315402,
+        333999,
+        321710,
+        399866,
+        334891,
+        3128501,
+        3131170,
+        3122882,
+        369100,
+        3124926,
+        348965,
         3113358
       ],
-      "networks": [12],
-      "network_names": ["NBC"],
+      "networks": [
+        12
+      ],
+      "network_names": [
+        "NBC"
+      ],
       "relevance_percentile": 90.79,
       "trailer": "",
       "trailer_thumbnail": "",
@@ -520,7 +526,7 @@
       ]
     },
     {
-      "id": 345534,
+      "id": 1586594,
       "title": "Game of Thrones",
       "original_title": "Game of Thrones",
       "plot_overview": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
@@ -532,8 +538,16 @@
       "imdb_id": "tt0944947",
       "tmdb_id": 1399,
       "tmdb_type": "tv",
-      "genres": [40, 7, 39],
-      "genre_names": ["Action & Adventure", "Drama", "Sci-Fi & Fantasy"],
+      "genres": [
+        40,
+        7,
+        39
+      ],
+      "genre_names": [
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
       "user_rating": 8.8,
       "critic_score": 85,
       "us_rating": "TV-MA",
@@ -541,12 +555,38 @@
       "backdrop": "https://cdn.watchmode.com/backdrops/0345534_bd_w780.jpg",
       "original_language": "en",
       "similar_titles": [
-        315551, 3129354, 3101216, 392023, 3143011, 3135512, 329319, 3165325,
-        3173903, 383653, 3131293, 390013, 3121411, 3130921, 519834, 317379,
-        385447, 3106167, 3124749, 3119872, 52048, 314892, 36822, 3119816, 515852
+        315551,
+        3129354,
+        3101216,
+        392023,
+        3143011,
+        3135512,
+        329319,
+        3165325,
+        3173903,
+        383653,
+        3131293,
+        390013,
+        3121411,
+        3130921,
+        519834,
+        317379,
+        385447,
+        3106167,
+        3124749,
+        3119872,
+        52048,
+        314892,
+        36822,
+        3119816,
+        515852
       ],
-      "networks": [1],
-      "network_names": ["HBO"],
+      "networks": [
+        1
+      ],
+      "network_names": [
+        "HBO"
+      ],
       "relevance_percentile": 99.19,
       "trailer": "https://www.youtube.com/watch?v=BpJYNVhGf1s",
       "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/680943_pthumbnail_320.jpg",
@@ -749,7 +789,796 @@
       ]
     },
     {
-      "id": 3173903,
+      "id": 1672293,
+      "title": "Game of Thrones",
+      "original_title": "Game of Thrones",
+      "plot_overview": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
+      "type": "tv_series",
+      "runtime_minutes": 60,
+      "year": 2011,
+      "end_year": 2019,
+      "release_date": "2011-04-17",
+      "imdb_id": "tt0944947",
+      "tmdb_id": 1399,
+      "tmdb_type": "tv",
+      "genres": [
+        40,
+        7,
+        39
+      ],
+      "genre_names": [
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "user_rating": 8.8,
+      "critic_score": 85,
+      "us_rating": "TV-MA",
+      "poster": "https://cdn.watchmode.com/posters/0345534_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/0345534_bd_w780.jpg",
+      "original_language": "en",
+      "similar_titles": [
+        315551,
+        3129354,
+        3101216,
+        392023,
+        3143011,
+        3135512,
+        329319,
+        3165325,
+        3173903,
+        383653,
+        3131293,
+        390013,
+        3121411,
+        3130921,
+        519834,
+        317379,
+        385447,
+        3106167,
+        3124749,
+        3119872,
+        52048,
+        314892,
+        36822,
+        3119816,
+        515852
+      ],
+      "networks": [
+        1
+      ],
+      "network_names": [
+        "HBO"
+      ],
+      "relevance_percentile": 99.19,
+      "trailer": "https://www.youtube.com/watch?v=BpJYNVhGf1s",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/680943_pthumbnail_320.jpg",
+      "sources": [
+        {
+          "source_id": 454,
+          "name": "HBO MAX Free",
+          "type": "free",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://play.hbomax.com/episode/urn:hbo:episode:GVU4NYgvPQlFvjSoJAbmL",
+          "format": "4K",
+          "price": null,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://tv.apple.com/us/episode/the-iron-throne/umc.cmc.3t9qwzbey3f8unmyq0ycpuh5x?playableId=tvs.sbd.9001%3A1464467551&showId=umc.cmc.7htjb4sh74ynzxavta5boxuzq",
+          "format": "SD",
+          "price": 2.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://tv.apple.com/us/episode/the-iron-throne/umc.cmc.3t9qwzbey3f8unmyq0ycpuh5x?playableId=tvs.sbd.9001%3A1464467551&showId=umc.cmc.7htjb4sh74ynzxavta5boxuzq",
+          "format": "HD",
+          "price": 3.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 140,
+          "name": "Google Play",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://play.google.com/store/tv/show?cdid=tvseason-UfCpWvffVNdm6mj9MqZkXg&gl=US&hl=en&id=71Edzxe9gmo",
+          "format": "SD",
+          "price": 2.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 140,
+          "name": "Google Play",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://play.google.com/store/tv/show?cdid=tvseason-UfCpWvffVNdm6mj9MqZkXg&gl=US&hl=en&id=71Edzxe9gmo",
+          "format": "HD",
+          "price": null,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://www.vudu.com/content/movies/details/content/1101227",
+          "format": "SD",
+          "price": 2.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://www.vudu.com/content/movies/details/content/1101227",
+          "format": "HD",
+          "price": 3.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://www.vudu.com/content/movies/details/content/1101227",
+          "format": "4K",
+          "price": 4.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.6081f898-32dd-4222-8763-5cb96b4eb033?tag=",
+          "format": "SD",
+          "price": 2.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.6081f898-32dd-4222-8763-5cb96b4eb033?tag=",
+          "format": "HD",
+          "price": 3.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://www.microsoft.com/en-us/p/season-8/8d6kgwxn3z03",
+          "format": "SD",
+          "price": 2.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://www.microsoft.com/en-us/p/season-8/8d6kgwxn3z03",
+          "format": "HD",
+          "price": 3.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 387,
+          "name": "HBO MAX",
+          "type": "sub",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://play.hbomax.com/page/urn:hbo:page:GXJv1mw0FQagjKgEAAAHQ:type:episode",
+          "format": "4K",
+          "price": null,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 443,
+          "name": "Spectrum On Demand",
+          "type": "sub",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://ondemand.spectrum.net/tv/hbo-max/8553063/game-of-thrones/",
+          "format": "HD",
+          "price": null,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 385,
+          "name": "HBO (Via Hulu)",
+          "type": "sub",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://www.hulu.com/watch/76fef78c-80f0-4c9e-82d9-4e0484996381",
+          "format": "HD",
+          "price": null,
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 539605,
+      "title": "Game of Thrones",
+      "original_title": "Game of Thrones",
+      "plot_overview": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
+      "type": "tv_series",
+      "runtime_minutes": 60,
+      "year": 2011,
+      "end_year": 2019,
+      "release_date": "2011-04-17",
+      "imdb_id": "tt0944947",
+      "tmdb_id": 1399,
+      "tmdb_type": "tv",
+      "genres": [
+        40,
+        7,
+        39
+      ],
+      "genre_names": [
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "user_rating": 8.8,
+      "critic_score": 85,
+      "us_rating": "TV-MA",
+      "poster": "https://cdn.watchmode.com/posters/0345534_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/0345534_bd_w780.jpg",
+      "original_language": "en",
+      "similar_titles": [
+        315551,
+        3129354,
+        3101216,
+        392023,
+        3143011,
+        3135512,
+        329319,
+        3165325,
+        3173903,
+        383653,
+        3131293,
+        390013,
+        3121411,
+        3130921,
+        519834,
+        317379,
+        385447,
+        3106167,
+        3124749,
+        3119872,
+        52048,
+        314892,
+        36822,
+        3119816,
+        515852
+      ],
+      "networks": [
+        1
+      ],
+      "network_names": [
+        "HBO"
+      ],
+      "relevance_percentile": 99.19,
+      "trailer": "https://www.youtube.com/watch?v=BpJYNVhGf1s",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/680943_pthumbnail_320.jpg",
+      "sources": [
+        {
+          "source_id": 454,
+          "name": "HBO MAX Free",
+          "type": "free",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://play.hbomax.com/episode/urn:hbo:episode:GVU4NYgvPQlFvjSoJAbmL",
+          "format": "4K",
+          "price": null,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://tv.apple.com/us/episode/the-iron-throne/umc.cmc.3t9qwzbey3f8unmyq0ycpuh5x?playableId=tvs.sbd.9001%3A1464467551&showId=umc.cmc.7htjb4sh74ynzxavta5boxuzq",
+          "format": "SD",
+          "price": 2.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://tv.apple.com/us/episode/the-iron-throne/umc.cmc.3t9qwzbey3f8unmyq0ycpuh5x?playableId=tvs.sbd.9001%3A1464467551&showId=umc.cmc.7htjb4sh74ynzxavta5boxuzq",
+          "format": "HD",
+          "price": 3.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 140,
+          "name": "Google Play",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://play.google.com/store/tv/show?cdid=tvseason-UfCpWvffVNdm6mj9MqZkXg&gl=US&hl=en&id=71Edzxe9gmo",
+          "format": "SD",
+          "price": 2.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 140,
+          "name": "Google Play",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://play.google.com/store/tv/show?cdid=tvseason-UfCpWvffVNdm6mj9MqZkXg&gl=US&hl=en&id=71Edzxe9gmo",
+          "format": "HD",
+          "price": null,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://www.vudu.com/content/movies/details/content/1101227",
+          "format": "SD",
+          "price": 2.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://www.vudu.com/content/movies/details/content/1101227",
+          "format": "HD",
+          "price": 3.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://www.vudu.com/content/movies/details/content/1101227",
+          "format": "4K",
+          "price": 4.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.6081f898-32dd-4222-8763-5cb96b4eb033?tag=",
+          "format": "SD",
+          "price": 2.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.6081f898-32dd-4222-8763-5cb96b4eb033?tag=",
+          "format": "HD",
+          "price": 3.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://www.microsoft.com/en-us/p/season-8/8d6kgwxn3z03",
+          "format": "SD",
+          "price": 2.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://www.microsoft.com/en-us/p/season-8/8d6kgwxn3z03",
+          "format": "HD",
+          "price": 3.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 387,
+          "name": "HBO MAX",
+          "type": "sub",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://play.hbomax.com/page/urn:hbo:page:GXJv1mw0FQagjKgEAAAHQ:type:episode",
+          "format": "4K",
+          "price": null,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 443,
+          "name": "Spectrum On Demand",
+          "type": "sub",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://ondemand.spectrum.net/tv/hbo-max/8553063/game-of-thrones/",
+          "format": "HD",
+          "price": null,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 385,
+          "name": "HBO (Via Hulu)",
+          "type": "sub",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://www.hulu.com/watch/76fef78c-80f0-4c9e-82d9-4e0484996381",
+          "format": "HD",
+          "price": null,
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 4146033,
+      "title": "Game of Thrones",
+      "original_title": "Game of Thrones",
+      "plot_overview": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
+      "type": "tv_series",
+      "runtime_minutes": 60,
+      "year": 2011,
+      "end_year": 2019,
+      "release_date": "2011-04-17",
+      "imdb_id": "tt0944947",
+      "tmdb_id": 1399,
+      "tmdb_type": "tv",
+      "genres": [
+        40,
+        7,
+        39
+      ],
+      "genre_names": [
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "user_rating": 8.8,
+      "critic_score": 85,
+      "us_rating": "TV-MA",
+      "poster": "https://cdn.watchmode.com/posters/0345534_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/0345534_bd_w780.jpg",
+      "original_language": "en",
+      "similar_titles": [
+        315551,
+        3129354,
+        3101216,
+        392023,
+        3143011,
+        3135512,
+        329319,
+        3165325,
+        3173903,
+        383653,
+        3131293,
+        390013,
+        3121411,
+        3130921,
+        519834,
+        317379,
+        385447,
+        3106167,
+        3124749,
+        3119872,
+        52048,
+        314892,
+        36822,
+        3119816,
+        515852
+      ],
+      "networks": [
+        1
+      ],
+      "network_names": [
+        "HBO"
+      ],
+      "relevance_percentile": 99.19,
+      "trailer": "https://www.youtube.com/watch?v=BpJYNVhGf1s",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/680943_pthumbnail_320.jpg",
+      "sources": [
+        {
+          "source_id": 454,
+          "name": "HBO MAX Free",
+          "type": "free",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://play.hbomax.com/episode/urn:hbo:episode:GVU4NYgvPQlFvjSoJAbmL",
+          "format": "4K",
+          "price": null,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://tv.apple.com/us/episode/the-iron-throne/umc.cmc.3t9qwzbey3f8unmyq0ycpuh5x?playableId=tvs.sbd.9001%3A1464467551&showId=umc.cmc.7htjb4sh74ynzxavta5boxuzq",
+          "format": "SD",
+          "price": 2.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://tv.apple.com/us/episode/the-iron-throne/umc.cmc.3t9qwzbey3f8unmyq0ycpuh5x?playableId=tvs.sbd.9001%3A1464467551&showId=umc.cmc.7htjb4sh74ynzxavta5boxuzq",
+          "format": "HD",
+          "price": 3.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 140,
+          "name": "Google Play",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://play.google.com/store/tv/show?cdid=tvseason-UfCpWvffVNdm6mj9MqZkXg&gl=US&hl=en&id=71Edzxe9gmo",
+          "format": "SD",
+          "price": 2.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 140,
+          "name": "Google Play",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://play.google.com/store/tv/show?cdid=tvseason-UfCpWvffVNdm6mj9MqZkXg&gl=US&hl=en&id=71Edzxe9gmo",
+          "format": "HD",
+          "price": null,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://www.vudu.com/content/movies/details/content/1101227",
+          "format": "SD",
+          "price": 2.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://www.vudu.com/content/movies/details/content/1101227",
+          "format": "HD",
+          "price": 3.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://www.vudu.com/content/movies/details/content/1101227",
+          "format": "4K",
+          "price": 4.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.6081f898-32dd-4222-8763-5cb96b4eb033?tag=",
+          "format": "SD",
+          "price": 2.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.6081f898-32dd-4222-8763-5cb96b4eb033?tag=",
+          "format": "HD",
+          "price": 3.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://www.microsoft.com/en-us/p/season-8/8d6kgwxn3z03",
+          "format": "SD",
+          "price": 2.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "buy",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://www.microsoft.com/en-us/p/season-8/8d6kgwxn3z03",
+          "format": "HD",
+          "price": 3.99,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 387,
+          "name": "HBO MAX",
+          "type": "sub",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://play.hbomax.com/page/urn:hbo:page:GXJv1mw0FQagjKgEAAAHQ:type:episode",
+          "format": "4K",
+          "price": null,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 443,
+          "name": "Spectrum On Demand",
+          "type": "sub",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://ondemand.spectrum.net/tv/hbo-max/8553063/game-of-thrones/",
+          "format": "HD",
+          "price": null,
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 385,
+          "name": "HBO (Via Hulu)",
+          "type": "sub",
+          "region": "US",
+          "ios_url": "Deeplinks available for paid plans only.",
+          "android_url": "Deeplinks available for paid plans only.",
+          "web_url": "https://www.hulu.com/watch/76fef78c-80f0-4c9e-82d9-4e0484996381",
+          "format": "HD",
+          "price": null,
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 345534,
       "title": "Breaking Bad",
       "original_title": "Breaking Bad",
       "plot_overview": "When Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
@@ -761,8 +1590,12 @@
       "imdb_id": "tt0903747",
       "tmdb_id": 1396,
       "tmdb_type": "tv",
-      "genres": [7],
-      "genre_names": ["Drama"],
+      "genres": [
+        7
+      ],
+      "genre_names": [
+        "Drama"
+      ],
       "user_rating": 9.3,
       "critic_score": 85,
       "us_rating": "TV-MA",
@@ -770,13 +1603,38 @@
       "backdrop": "https://cdn.watchmode.com/backdrops/03173903_bd_w780.jpg",
       "original_language": "en",
       "similar_titles": [
-        3131293, 390224, 3129354, 340865, 3109684, 316177, 383653, 345534,
-        3130921, 3140350, 3129647, 329319, 330948, 313542, 350372, 395040,
-        327970, 357367, 314425, 3124749, 3120630, 3119940, 537712, 3137595,
+        3131293,
+        390224,
+        3129354,
+        340865,
+        3109684,
+        316177,
+        383653,
+        345534,
+        3130921,
+        3140350,
+        3129647,
+        329319,
+        330948,
+        313542,
+        350372,
+        395040,
+        327970,
+        357367,
+        314425,
+        3124749,
+        3120630,
+        3119940,
+        537712,
+        3137595,
         3108916
       ],
-      "networks": [8],
-      "network_names": ["AMC"],
+      "networks": [
+        8
+      ],
+      "network_names": [
+        "AMC"
+      ],
       "relevance_percentile": 98.81,
       "trailer": "https://www.youtube.com/watch?v=XZ8daibM3AE",
       "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/536008_pthumbnail_320.jpg",
@@ -966,167 +1824,32 @@
       ]
     }
   ],
-
   "users": [
     {
-      "email": "paula@gmail.com",
-      "password": "qwerty1234",
-      "avatar": "https://picsum.photos/100/100",
-      "username": "paula",
-      "platforms": [203, 26, 387, 372],
-      "favourites": [345534, 3173903]
+      "user": {
+        "email": "mus@mus.es",
+        "userName": "mus",
+        "password": "1234"
+      },
+      "id": 1
     },
     {
-      "email": "victor@gmail.com",
-      "password": "qwerty1234",
-      "avatar": "https://picsum.photos/100/100",
-      "username": "victor",
-      "platforms": [26, 372],
-      "favourites": [345534, 3173903]
+      "user": {
+        "favourites": [
+          1586594,
+          1586594
+        ]
+      },
+      "id": 2
     },
     {
-      "email": "marcelo@gmail.com",
-      "password": "qwerty1234",
-      "avatar": "https://picsum.photos/100/100",
-      "username": "marcelo",
-      "platforms": [372, 203, 387],
-      "favourites": [345531, 345534]
-    },
-    {
-      "email": "beatriz@gmail.com",
-      "password": "qwerty1234",
-      "img": "https://picsum.photos/100/100",
-      "username": "beatriz",
-      "platforms": [387],
-      "favourites": [345534, 3173903]
-    }
-  ],
-
-  "collections": [
-    {
-      "date": 202301,
-      "list": [
-        {
-          "id": 3173903,
-          "platform": "netflix",
-          "title": "Breaking Bad",
-          "year": 2008,
-          "imdb_id": "tt0903747",
-          "titleType": "tv_series"
-        },
-        {
-          "id": 3173903,
-          "platform": "netflix",
-          "title": "Breaking Bad",
-          "year": 2008,
-          "imdb_id": "tt0903747",
-          "titleType": "tv_series"
-        },
-        {
-          "id": 3173903,
-          "platform": "netflix",
-          "title": "Breaking Bad",
-          "year": 2008,
-          "imdb_id": "tt0903747",
-          "titleType": "tv_series"
-        },
-        {
-          "id": 3173903,
-          "platform": "netflix",
-          "title": "Breaking Bad",
-          "year": 2008,
-          "imdb_id": "tt0903747",
-          "titleType": "tv_series"
-        },
-        {
-          "id": 3173903,
-          "platform": "prime",
-          "title": "Breaking Bad",
-          "year": 2008,
-          "imdb_id": "tt0903747",
-          "titleType": "tv_series"
-        },
-        {
-          "id": 3173903,
-          "platform": "prime",
-          "title": "Breaking Bad",
-          "year": 2008,
-          "imdb_id": "tt0903747",
-          "titleType": "tv_series"
-        },
-        {
-          "id": 3173903,
-          "platform": "prime",
-          "title": "Breaking Bad",
-          "year": 2008,
-          "imdb_id": "tt0903747",
-          "titleType": "tv_series"
-        },
-        {
-          "id": 3173903,
-          "platform": "hbo",
-          "title": "Breaking Bad",
-          "year": 2008,
-          "imdb_id": "tt0903747",
-          "titleType": "tv_series"
-        },
-        {
-          "id": 3173903,
-          "platform": "hbo",
-          "title": "Breaking Bad",
-          "year": 2008,
-          "imdb_id": "tt0903747",
-          "titleType": "tv_series"
-        },
-        {
-          "id": 3173903,
-          "platform": "disney",
-          "title": "Breaking Bad",
-          "year": 2008,
-          "imdb_id": "tt0903747",
-          "titleType": "tv_series"
-        },
-        {
-          "id": 3173903,
-          "platform": "disney",
-          "title": "Breaking Bad",
-          "year": 2008,
-          "imdb_id": "tt0903747",
-          "titleType": "tv_series"
-        },
-        {
-          "id": 3173903,
-          "platform": "apple",
-          "title": "Breaking Bad",
-          "year": 2008,
-          "imdb_id": "tt0903747",
-          "titleType": "tv_series"
-        },
-        {
-          "id": 3173903,
-          "platform": "apple",
-          "title": "Breaking Bad",
-          "year": 2008,
-          "imdb_id": "tt0903747",
-          "titleType": "tv_series"
-        },
-        {
-          "id": 3173903,
-          "platform": "apple",
-          "title": "Breaking Bad",
-          "year": 2008,
-          "imdb_id": "tt0903747",
-          "titleType": "tv_series"
-        },
-        {
-          "id": 3173903,
-          "platform": "apple",
-          "title": "Breaking Bad",
-          "year": 2008,
-          "imdb_id": "tt0903747",
-          "titleType": "tv_series"
-        }
-      ]
+      "user": {
+        "email": "morty@m.es",
+        "userName": "morty",
+        "password": "1234"
+      },
+      "id": 3
     }
   ]
+
 }
