@@ -1,7 +1,41 @@
 {
-  "idUserCounter": [
+  "users": [
     {
-      "id": 6
+      "user": {
+        "email": "mus@mus.es",
+        "userName": "mus",
+        "password": "1234",
+        "favourites": [3171572, 1589116, 3178664],
+        "platforms": [
+          "prime",
+          "disney"
+        ]
+      },
+      "id": 1
+    },
+    {
+      "user": {
+        "email": "paula@p.es",
+        "userName": "paula",
+        "password": "1234",
+        "platforms": [
+          "Amazon Prime"
+        ]
+      },
+      "id": 2
+    },
+    {
+      "user": {
+        "email": "santi@santi.es",
+        "userName": "santi",
+        "password": "1234",
+        "platforms": [
+          "Netflix",
+          "Amazon Prime",
+          "HBO MAX"
+        ]
+      },
+      "id": 3
     }
   ],
   "genre": [
@@ -195,240 +229,874 @@
     {
       "id": 203,
       "name": "Netflix",
-      "type": "sub",
-      "logo_100px": "https://cdn.watchmode.com/provider_logos/netflix_100px.png",
-      "ios_appstore_url": "http://itunes.apple.com/app/netflix/id363590051",
-      "android_playstore_url": "https://play.google.com/store/apps/details?id=com.netflix.mediaclient&hl=en",
-      "android_scheme": "nflx",
-      "ios_scheme": "nflx"
+      "logo_100px": "https://cdn.watchmode.com/provider_logos/netflix_100px.png"
     },
     {
       "id": 26,
       "name": "Amazon Prime",
-      "type": "sub",
-      "logo_100px": "https://cdn.watchmode.com/provider_logos/prime_video_100px.png",
-      "ios_appstore_url": "http://itunes.apple.com/app/amazon-instant-video/id545519333",
-      "android_playstore_url": "http://amazon.com/GetAndroidVideo",
-      "android_scheme": "intent",
-      "ios_scheme": "aiv"
+      "logo_100px": "https://cdn.watchmode.com/provider_logos/prime_video_100px.png"
     },
     {
       "id": 387,
       "name": "HBO MAX",
-      "type": "sub",
-      "logo_100px": "https://cdn.watchmode.com/provider_logos/hbomax_100px.png",
-      "ios_appstore_url": null,
-      "android_playstore_url": null,
-      "android_scheme": "hbomax",
-      "ios_scheme": "hbomax"
+      "logo_100px": "https://cdn.watchmode.com/provider_logos/hbomax_100px.png"
     },
     {
       "id": 372,
       "name": "Disney+",
-      "type": "sub",
-      "logo_100px": "https://cdn.watchmode.com/provider_logos/disneyPlus_100px.png",
-      "ios_appstore_url": "https://apps.apple.com/app/disney/id1446075923",
-      "android_playstore_url": null,
-      "android_scheme": "disneyplus",
-      "ios_scheme": "disneyplus"
+      "logo_100px": "https://cdn.watchmode.com/provider_logos/disneyPlus_100px.png"
     },
     {
       "id": 371,
       "name": "AppleTV+",
-      "type": "sub",
-      "logo_100px": "https://cdn.watchmode.com/provider_logos/appleTvPlus_100px.png",
-      "ios_appstore_url": null,
-      "android_playstore_url": null,
-      "android_scheme": null,
-      "ios_scheme": null
+      "logo_100px": "https://cdn.watchmode.com/provider_logos/appleTvPlus_100px.png"
     }
   ],
   "titleList": [
     {
-      "name": "Breaking Bad",
-      "platform": "netflix",
-      "relevance": 445.23,
+      "id": 3171572,
+      "title": "Willow",
+      "year": 2022,
       "type": "tv_series",
-      "id": 3173903,
-      "year": 2008,
-      "result_type": "title",
-      "tmdb_id": 1396,
-      "tmdb_type": "tv",
-      "image_url": "https://cdn.watchmode.com/posters/03173903_poster_w185.jpg"
-    },
-    {
-      "name": "El Camino: A Breaking Bad Movie",
-      "platform": "netflix",
-      "relevance": 169.83,
-      "type": "movie",
-      "id": 1586594,
-      "year": 2019,
-      "result_type": "title",
-      "tmdb_id": 559969,
-      "tmdb_type": "movie",
-      "image_url": "https://cdn.watchmode.com/posters/01586594_poster_w185.jpg"
-    },
-    {
-      "name": "No Half Measures: Creating the Final Season of Breaking Bad",
-      "platform": "netflix",
-      "relevance": 162.66,
-      "type": "movie",
-      "id": 1672293,
-      "year": 2013,
-      "result_type": "title",
-      "tmdb_id": 239459,
-      "tmdb_type": "movie",
-      "image_url": "https://cdn.watchmode.com/posters/01672293_poster_w185.jpg"
-    },
-    {
-      "name": "The Road to El Camino: Behind the Scenes of El Camino: A Breaking Bad Movie",
-      "platform": "hbo",
-      "relevance": 125.46,
-      "type": "movie",
-      "id": 539605,
-      "year": 2019,
-      "result_type": "title",
-      "tmdb_id": 934809,
-      "tmdb_type": "movie",
-      "image_url": "https://cdn.watchmode.com/posters/0539605_poster_w185.jpg"
-    },
-    {
-      "name": "Breaking Bad Wolf",
-      "platform": "hbo",
-      "relevance": 82.63,
-      "type": "tv_movie",
-      "id": 4146033,
-      "year": 2018,
-      "result_type": "title",
-      "tmdb_id": 635602,
-      "tmdb_type": "movie",
-      "image_url": "https://cdn.watchmode.com/posters/04146033_poster_w185.jpg"
-    },
-    {
-      "name": "Game of Thrones",
       "platform": "disney",
-      "relevance": 247.98,
+      "poster": "https://cdn.watchmode.com/posters/03171572_poster_w185.jpg"
+    },
+    {
+      "id": 543772,
+      "title": "The Santa Clauses",
+      "year": 2022,
       "type": "tv_series",
-      "id": 345534,
-      "year": 2011,
-      "result_type": "title",
-      "tmdb_id": 1399,
-      "tmdb_type": "tv",
-      "image_url": "https://cdn.watchmode.com/posters/0345534_poster_w185.jpg"
+      "platform": "disney",
+      "poster": "https://cdn.watchmode.com/posters/0543772_poster_w185.jpg"
+    },
+    {
+      "id": 3182001,
+      "title": "National Treasure: Edge of History",
+      "year": 2022,
+      "type": "tv_series",
+      "platform": "disney",
+      "poster": "https://cdn.watchmode.com/posters/03182001_poster_w185.jpg"
+    },
+    {
+      "id": 1623199,
+      "title": "The Guardians of the Galaxy: Holiday Special",
+      "year": 2022,
+      "type": "tv_special",
+      "platform": "disney",
+      "poster": "https://cdn.watchmode.com/posters/01623199_poster_w185.jpg"
+    },
+    {
+      "id": 3159069,
+      "title": "Andor",
+      "year": 2022,
+      "type": "tv_series",
+      "platform": "disney",
+      "poster": "https://cdn.watchmode.com/posters/03159069_poster_w185.jpg"
+    },
+    {
+      "id": 1589116,
+      "title": "Moon Knight",
+      "year": 2022,
+      "type": "tv_miniseries",
+      "platform": "disney",
+      "poster": "https://cdn.watchmode.com/posters/01589116_poster_w185.jpg"
+    },
+    {
+      "id": 3164369,
+      "title": "The Owl House",
+      "year": 2020,
+      "type": "tv_series",
+      "platform": "disney",
+      "poster": "https://cdn.watchmode.com/posters/03164369_poster_w185.jpg"
+    },
+    {
+      "id": 1491945,
+      "title": "Black Panther: Wakanda Forever",
+      "year": 2022,
+      "type": "movie",
+      "platform": "disney",
+      "poster": "https://cdn.watchmode.com/posters/01491945_poster_w185.jpg"
+    },
+    {
+      "id": 1550054,
+      "title": "Obi-Wan Kenobi",
+      "year": 2022,
+      "type": "tv_miniseries",
+      "platform": "disney",
+      "poster": "https://cdn.watchmode.com/posters/01550054_poster_w185.jpg"
+    },
+    {
+      "id": 1560295,
+      "title": "Doctor Strange in the Multiverse of Madness",
+      "year": 2022,
+      "type": "movie",
+      "platform": "disney",
+      "poster": "https://cdn.watchmode.com/posters/01560295_poster_w185.jpg"
+    },
+    {
+      "id": 3174840,
+      "title": "Clarkson's Farm",
+      "year": 2021,
+      "type": "tv_series",
+      "platform": "prime",
+      "poster": "https://cdn.watchmode.com/posters/03174840_poster_w185.jpg"
+    },
+    {
+      "id": 4161097,
+      "title": "Nate Bargatze: Hello World",
+      "year": 2023,
+      "type": "tv_special",
+      "platform": "prime",
+      "poster": "https://cdn.watchmode.com/posters/04161097_poster_w185.jpg"
+    },
+    {
+      "id": 3178664,
+      "title": "The Legend of Vox Machina",
+      "year": 2022,
+      "type": "tv_series",
+      "platform": "prime",
+      "poster": "https://cdn.watchmode.com/posters/03178664_poster_w185.jpg"
+    },
+    {
+      "id": 3184270,
+      "title": "Three Pines",
+      "year": 2022,
+      "type": "tv_series",
+      "platform": "prime",
+      "poster": "https://cdn.watchmode.com/posters/03184270_poster_w185.jpg"
+    },
+    {
+      "id": 3155860,
+      "title": "Hunters",
+      "year": 2020,
+      "type": "tv_series",
+      "platform": "prime",
+      "poster": "https://cdn.watchmode.com/posters/03155860_poster_w185.jpg"
+    },
+    {
+      "id": 3181868,
+      "title": "The Devil's Hour",
+      "year": 2022,
+      "type": "tv_series",
+      "platform": "prime",
+      "poster": "https://cdn.watchmode.com/posters/03181868_poster_w185.jpg"
+    },
+    {
+      "id": 3186880,
+      "title": "The English",
+      "year": 2022,
+      "type": "tv_miniseries",
+      "platform": "prime",
+      "poster": "https://cdn.watchmode.com/posters/03186880_poster_w185.jpg"
+    },
+    {
+      "id": 1639246,
+      "title": "Thirteen Lives",
+      "year": 2022,
+      "type": "movie",
+      "platform": "prime",
+      "poster": "https://cdn.watchmode.com/posters/01639246_poster_w185.jpg"
+    },
+    {
+      "id": 3157435,
+      "title": "The Lord of the Rings: The Rings of Power",
+      "year": 2022,
+      "type": "tv_series",
+      "platform": "prime",
+      "poster": "https://cdn.watchmode.com/posters/03157435_poster_w185.jpg"
+    },
+    {
+      "id": 1675231,
+      "title": "Somebody I Used to Know",
+      "year": 2023,
+      "type": "movie",
+      "platform": "prime",
+      "poster": "https://cdn.watchmode.com/posters/01675231_poster_w185.jpg"
+    },
+    {
+      "id": 547254,
+      "title": "Marc Maron: From Bleak to Dark",
+      "year": 2023,
+      "type": "tv_movie",
+      "platform": "hbo",
+      "poster": "https://cdn.watchmode.com/posters/0547254_poster_w185.jpg"
+    },
+    {
+      "id": 3185581,
+      "title": "Velma",
+      "year": 2023,
+      "type": "tv_series",
+      "platform": "hbo",
+      "poster": "https://cdn.watchmode.com/posters/03185581_poster_w185.jpg"
+    },
+    {
+      "id": 1564613,
+      "title": "The Last of Us",
+      "year": 2023,
+      "type": "tv_series",
+      "platform": "hbo",
+      "poster": "https://cdn.watchmode.com/posters/01564613_poster_w185.jpg"
+    },
+    {
+      "id": 3181732,
+      "title": "Our Flag Means Death",
+      "year": 2022,
+      "type": "tv_series",
+      "platform": "hbo",
+      "poster": "https://cdn.watchmode.com/posters/03181732_poster_w185.jpg"
+    },
+    {
+      "id": 3165325,
+      "title": "House of the Dragon",
+      "year": 2022,
+      "type": "tv_series",
+      "platform": "hbo",
+      "poster": "https://cdn.watchmode.com/posters/03165325_poster_w185.jpg"
+    },
+    {
+      "id": 1583908,
+      "title": "The Menu",
+      "year": 2022,
+      "type": "movie",
+      "platform": "hbo",
+      "poster": "https://cdn.watchmode.com/posters/01583908_poster_w185.jpg"
+    },
+    {
+      "id": 3188539,
+      "title": "The Rehearsal",
+      "year": 2022,
+      "type": "tv_series",
+      "platform": "hbo",
+      "poster": "https://cdn.watchmode.com/posters/03188539_poster_w185.jpg"
+    },
+    {
+      "id": 1504520,
+      "title": "Black Adam",
+      "year": 2022,
+      "type": "movie",
+      "platform": "hbo",
+      "poster": "https://cdn.watchmode.com/posters/01504520_poster_w185.jpg"
+    },
+    {
+      "id": 1532981,
+      "title": "The Batman",
+      "year": 2022,
+      "type": "movie",
+      "platform": "hbo",
+      "poster": "https://cdn.watchmode.com/posters/01532981_poster_w185.jpg"
+    },
+    {
+      "id": 543949,
+      "title": "We Own This City",
+      "year": 2022,
+      "type": "tv_miniseries",
+      "platform": "hbo",
+      "poster": "https://cdn.watchmode.com/posters/0543949_poster_w185.jpg"
+    },
+    {
+      "id": 3193886,
+      "title": "The Exchange",
+      "year": 2023,
+      "type": "tv_miniseries",
+      "platform": "netflix",
+      "poster": "https://cdn.watchmode.com/posters/03193886_poster_w185.jpg"
+    },
+    {
+      "id": 2755771,
+      "title": "Copenhagen Cowboy: Nightcall with Nicolas Winding Refn",
+      "year": 2023,
+      "type": "short_film",
+      "platform": "netflix",
+      "poster": "https://cdn.watchmode.com/posters/02755771_poster_w185.jpg"
+    },
+    {
+      "id": 3182718,
+      "title": "Wednesday",
+      "year": 2022,
+      "type": "tv_series",
+      "platform": "netflix",
+      "poster": "https://cdn.watchmode.com/posters/03182718_poster_w185.jpg"
+    },
+    {
+      "id": 1596405,
+      "title": "Glass Onion: A Knives Out Mystery",
+      "year": 2022,
+      "type": "movie",
+      "platform": "netflix",
+      "poster": "https://cdn.watchmode.com/posters/01596405_poster_w185.jpg"
+    },
+    {
+      "id": 3182711,
+      "title": "1899",
+      "year": 2022,
+      "type": "tv_series",
+      "platform": "netflix",
+      "poster": "https://cdn.watchmode.com/posters/03182711_poster_w185.jpg"
+    },
+    {
+      "id": 544721,
+      "title": "Dahmer - Monster: The Jeffrey Dahmer Story",
+      "year": 2022,
+      "type": "tv_miniseries",
+      "platform": "netflix",
+      "poster": "https://cdn.watchmode.com/posters/0544721_poster_w185.jpg"
+    },
+    {
+      "id": 1644353,
+      "title": "You People",
+      "year": 2023,
+      "type": "movie",
+      "platform": "netflix",
+      "poster": "https://cdn.watchmode.com/posters/01644353_poster_w185.jpg"
+    },
+    {
+      "id": 3168697,
+      "title": "The Midnight Gospel",
+      "year": 2020,
+      "type": "tv_series",
+      "platform": "netflix",
+      "poster": "https://cdn.watchmode.com/posters/03168697_poster_w185.jpg"
+    },
+    {
+      "id": 1702139,
+      "title": "Bill Russell: Legend",
+      "year": 2023,
+      "type": "tv_miniseries",
+      "platform": "netflix",
+      "poster": "https://cdn.watchmode.com/posters/01702139_poster_w185.jpg"
+    },
+    {
+      "id": 3190574,
+      "title": "Lockwood & Co.",
+      "year": 2023,
+      "type": "tv_series",
+      "platform": "netflix",
+      "poster": "https://cdn.watchmode.com/posters/03190574_poster_w185.jpg"
     }
   ],
-  "titleDetaills": [
+  "titleDetails": [
     {
-      "id": 3173903,
-      "title": "Game of Silence",
-      "original_title": "Game of Silence",
-      "plot_overview": "A successful Atlanta attorney's long-lost childhood friends unexpectedly reappear after 25 years. When a dark secret they thought they'd buried resurfaces, the brotherhood bands together to right the wrongs of their shared past - a journey that will push the limits of their loyalty and quench their thirst for revenge.",
-      "type": "tv_series",
-      "runtime_minutes": 43,
-      "year": 2016,
-      "end_year": 2016,
-      "release_date": "2016-04-12",
-      "imdb_id": "tt4074374",
-      "tmdb_id": 64482,
-      "tmdb_type": "tv",
-      "genres": [
-        7
-      ],
+      "id": 4161097,
+      "title": "Nate Bargatze: Hello World",
+      "original_title": "Nate Bargatze: Hello World",
+      "plot_overview": "Grammy nominated comedian Nate Bargatze delivers his family friendly take on a variety of topics including disadvantages of being the first born, the challenges of playing golf with your wife, and what happens when a bald eagle touches your head",
+      "type": "tv_special",
+      "year": 2023,
+      "release_date": "2023-01-31",
+      "imdb_id": "tt24165132",
       "genre_names": [
-        "Drama"
+        [
+          "Comedy"
+        ]
       ],
-      "user_rating": 6.9,
+      "user_rating": 8.1,
       "critic_score": null,
-      "us_rating": "TV-14",
-      "poster": "https://cdn.watchmode.com/posters/0345531_poster_w185.jpg",
-      "backdrop": "https://cdn.watchmode.com/backdrops/0345531_bd_w780.jpg",
-      "original_language": "en",
-      "similar_titles": [
-        321718,
-        3100359,
-        3106024,
-        3128190,
-        321720,
-        399171,
-        378218,
-        3121538,
-        3162216,
-        3128243,
-        3108741,
-        323843,
-        367978,
-        315402,
-        333999,
-        321710,
-        399866,
-        334891,
-        3128501,
-        3131170,
-        3122882,
-        369100,
-        3124926,
-        348965,
-        3113358
+      "poster": "https://cdn.watchmode.com/posters/04161097_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/04161097_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=xLSJKSteMlI",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/770708_pthumbnail_320.jpg",
+      "sources": [
+        {}
+      ]
+    },
+    {
+      "id": 3178664,
+      "title": "The Legend of Vox Machina",
+      "original_title": "The Legend of Vox Machina",
+      "plot_overview": "They're rowdy, they're ragtag, they're misfits turned mercenaries for hire. Vox Machina is more interested in easy money and cheap ale than actually protecting the realm. But when the kingdom is threatened by evil, this boisterous crew realizes that they are the only ones capable of restoring justice.",
+      "type": "tv_series",
+      "year": 2022,
+      "release_date": "2022-01-27",
+      "imdb_id": "tt11247158",
+      "genre_names": [
+        [
+          "Animation",
+          "Sci-Fi & Fantasy"
+        ]
       ],
-      "networks": [
-        12
+      "user_rating": 8.6,
+      "critic_score": 91,
+      "poster": "https://cdn.watchmode.com/posters/03178664_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/03178664_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=JvwxQSc-3os",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/711004_pthumbnail_320.jpg",
+      "sources": [
+        {}
+      ]
+    },
+    {
+      "id": 3174840,
+      "title": "Clarkson's Farm",
+      "original_title": "Clarkson's Farm",
+      "plot_overview": "Follow Jeremy Clarkson as he embarks on his latest adventure, farming. The man who on several occasions claims to be allergic to manual labour takes on the most manually labour intensive job there is. What could possibly go wrong?",
+      "type": "tv_series",
+      "year": 2021,
+      "release_date": "2021-06-11",
+      "imdb_id": "tt10541088",
+      "genre_names": [
+        [
+          "Comedy",
+          "Reality"
+        ]
       ],
-      "network_names": [
-        "NBC"
+      "user_rating": 8.9,
+      "critic_score": null,
+      "poster": "https://cdn.watchmode.com/posters/03174840_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/03174840_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=x9aU-qCrtN0",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/770648_pthumbnail_320.jpg",
+      "sources": [
+        {}
+      ]
+    },
+    {
+      "id": 3184270,
+      "title": "Three Pines",
+      "original_title": "Three Pines",
+      "plot_overview": "Chief Inspector Armand Gamache and his team investigate a series of perplexing murders, in the seemingly idyllic village of Three Pines and uncover the buried secrets of its eccentric residents. In the process, Gamache is forced to confront buried secrets of his own. Based on the novels by Louise Penny.",
+      "type": "tv_series",
+      "year": 2022,
+      "release_date": "2022-12-01",
+      "imdb_id": "tt15351648",
+      "genre_names": [
+        [
+          "Crime",
+          "Drama",
+          "Mystery"
+        ]
       ],
-      "relevance_percentile": 90.79,
+      "user_rating": 7.2,
+      "critic_score": null,
+      "poster": "https://cdn.watchmode.com/posters/03184270_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/03184270_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=P6pP7BS4QDg",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/768832_pthumbnail_320.jpg",
+      "sources": [
+        {}
+      ]
+    },
+    {
+      "id": 1639246,
+      "title": "Thirteen Lives",
+      "original_title": "Thirteen Lives",
+      "plot_overview": "Based on the true nail-biting mission that captivated the world. Twelve boys and the coach of a Thai soccer team explore the Tham Luang cave when an unexpected rainstorm traps them in a chamber inside the mountain. Entombed behind a maze of flooded cave tunnels, they face impossible odds. A team of world-class divers navigate through miles of dangerous cave networks to discover that finding the boys is only the beginning.",
+      "type": "movie",
+      "year": 2022,
+      "release_date": "2022-07-18",
+      "imdb_id": "tt12262116",
+      "genre_names": [
+        [
+          "Action",
+          "Adventure",
+          "Drama",
+          "Thriller"
+        ]
+      ],
+      "user_rating": 8.1,
+      "critic_score": 76,
+      "poster": "https://cdn.watchmode.com/posters/01639246_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/01639246_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=2e3xlY3L5e0",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/662409_pthumbnail_320.jpg",
+      "sources": [
+        {}
+      ]
+    },
+    {
+      "id": 3157435,
+      "title": "The Lord of the Rings: The Rings of Power",
+      "original_title": "The Lord of the Rings: The Rings of Power",
+      "plot_overview": "Beginning in a time of relative peace, we follow an ensemble cast of characters as they confront the re-emergence of evil to Middle-earth. From the darkest depths of the Misty Mountains, to the majestic forests of Lindon, to the breathtaking island kingdom of Númenor, to the furthest reaches of the map, these kingdoms and characters will carve out legacies that live on long after they are gone.",
+      "type": "tv_series",
+      "year": 2022,
+      "release_date": "2022-09-01",
+      "imdb_id": "tt7631058",
+      "genre_names": [
+        [
+          "Action & Adventure",
+          "Drama",
+          "Sci-Fi & Fantasy"
+        ]
+      ],
+      "user_rating": 7.1,
+      "critic_score": null,
+      "poster": "https://cdn.watchmode.com/posters/03157435_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/03157435_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=v7v1hIkYH24",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/665783_pthumbnail_320.jpg",
+      "sources": [
+        {}
+      ]
+    },
+    {
+      "id": 1675231,
+      "title": "Somebody I Used to Know",
+      "original_title": "Somebody I Used to Know",
+      "plot_overview": "On a trip to her hometown, workaholic Ally reminisces with her first love Sean, and starts to question everything about the person she's become. Things only get more confusing when she meets Sean's fiancé, Cassidy, who reminds her of the person she used to be.",
+      "type": "movie",
+      "year": 2023,
+      "release_date": "2023-02-10",
+      "imdb_id": "tt15333984",
+      "genre_names": [
+        [
+          "Comedy",
+          "Drama",
+          "Romance"
+        ]
+      ],
+      "user_rating": 5.6,
+      "critic_score": null,
+      "poster": "https://cdn.watchmode.com/posters/01675231_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/01675231_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=ya1oh1H7V6E",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/770465_pthumbnail_320.jpg",
+      "sources": [
+        {}
+      ]
+    },
+    {
+      "id": 3193886,
+      "title": "The Exchange",
+      "original_title": "الصفقة",
+      "plot_overview": "Set in Kuwait in 1988, two women making their way in the boys club of the Kuwait Stock Exchange, on the eve of Saddam Hussein's invasion of the country.",
+      "type": "tv_series",
+      "year": 2023,
+      "release_date": "2023-02-08",
+      "imdb_id": "tt22497928",
+      "genre_names": [
+        [
+          "Drama"
+        ]
+      ],
+      "user_rating": 7.1,
+      "critic_score": null,
+      "poster": "https://cdn.watchmode.com/posters/03193886_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/03193886_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=-9W1W3qXnUk",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/770754_pthumbnail_320.jpg",
+      "sources": [
+        {
+          "source_id": 203,
+          "name": "Netflix",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.netflix.com/watch/81573714",
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 1702139,
+      "title": "Bill Russell: Legend",
+      "original_title": "Bill Russell: Legend",
+      "plot_overview": "Winningest NBA champion and civil rights icon Bill Russell builds a larger-than-life legacy on and off the court in this 2-part biographical documentary.",
+      "type": "tv_miniseries",
+      "year": 2023,
+      "release_date": "2023-02-08",
+      "imdb_id": "tt18271440",
+      "genre_names": [
+        [
+          "Documentary"
+        ]
+      ],
+      "user_rating": 7.3,
+      "critic_score": null,
+      "poster": "https://cdn.watchmode.com/posters/01702139_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/01702139_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=ryHHifvsVwQ",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/771211_pthumbnail_320.jpg",
+      "sources": [
+        {
+          "source_id": 203,
+          "name": "Netflix",
+          "type": "sub",
+          "region": "US",
+          "web_url": "http://www.netflix.com/title/81644531",
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 544721,
+      "title": "Dahmer - Monster: The Jeffrey Dahmer Story",
+      "original_title": "Dahmer – Monster: The Jeffrey Dahmer Story",
+      "plot_overview": "This series examines the gruesome and horrific true crimes of Jeffrey Dahmer and the systemic failures that enabled one of America’s most notorious serial killers to continue his murderous spree in plain sight for over a decade.",
+      "type": "tv_miniseries",
+      "year": 2022,
+      "release_date": "2022-09-21",
+      "imdb_id": "tt13207736",
+      "genre_names": [
+        [
+          "Crime",
+          "Drama"
+        ]
+      ],
+      "user_rating": 7.5,
+      "critic_score": null,
+      "poster": "https://cdn.watchmode.com/posters/0544721_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/0544721_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=NVHHs-xllqo",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/685581_pthumbnail_320.jpg",
+      "sources": [
+        {
+          "source_id": 203,
+          "name": "Netflix",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.netflix.com/watch/81303944",
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 3168697,
+      "title": "The Midnight Gospel",
+      "original_title": "The Midnight Gospel",
+      "plot_overview": "Traversing trippy worlds inside his universe simulator, Clancy the space caster explores existential questions about life, death and everything in between.",
+      "type": "tv_series",
+      "year": 2020,
+      "release_date": "2020-04-20",
+      "imdb_id": "tt11639414",
+      "genre_names": [
+        [
+          "Adventure",
+          "Animation",
+          "Comedy",
+          "Mystery",
+          "Sci-Fi & Fantasy"
+        ]
+      ],
+      "user_rating": 8.2,
+      "critic_score": 87,
+      "poster": "https://cdn.watchmode.com/posters/03168697_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/03168697_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=0kQWAqjFJS0",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/721845_pthumbnail_320.jpg",
+      "sources": [
+        {
+          "source_id": 203,
+          "name": "Netflix",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.netflix.com/watch/81069246",
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 2755771,
+      "title": "Copenhagen Cowboy: Nightcall with Nicolas Winding Refn",
+      "original_title": "Copenhagen Cowboy: I neonlyset med Nicolas Winding Refn",
+      "plot_overview": "Show creator Nicolas Winding Refn and his team detail how they brought the stoic heroine and dark fairy tale version of Copenhagen's netherworld to life.",
+      "type": "short_film",
+      "year": 2023,
+      "release_date": "2023-01-26",
+      "imdb_id": "tt26452836",
+      "genre_names": [
+        [
+          "Documentary"
+        ]
+      ],
+      "user_rating": 6.5,
+      "critic_score": null,
+      "poster": "https://cdn.watchmode.com/posters/02755771_poster_w185.jpg",
+      "backdrop": null,
       "trailer": "",
       "trailer_thumbnail": "",
       "sources": [
         {
-          "source_id": 77,
-          "name": "Crackle",
+          "source_id": 203,
+          "name": "Netflix",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.netflix.com/watch/81667133",
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 3182718,
+      "title": "Wednesday",
+      "original_title": "Wednesday",
+      "plot_overview": "Wednesday Addams is sent to Nevermore Academy, a bizarre boarding school where she attempts to master her psychic powers, stop a monstrous killing spree of the town citizens, and solve the supernatural mystery that affected her family 25 years ago — all while navigating her new relationships.",
+      "type": "tv_series",
+      "year": 2022,
+      "release_date": "2022-11-23",
+      "imdb_id": "tt13443470",
+      "genre_names": [
+        [
+          "Comedy",
+          "Mystery",
+          "Sci-Fi & Fantasy"
+        ]
+      ],
+      "user_rating": 8.1,
+      "critic_score": null,
+      "poster": "https://cdn.watchmode.com/posters/03182718_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/03182718_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=Di310WS8zLk",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/750756_pthumbnail_320.jpg",
+      "sources": [
+        {
+          "source_id": 203,
+          "name": "Netflix",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.netflix.com/watch/81257211",
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 1644353,
+      "title": "You People",
+      "original_title": "You People",
+      "plot_overview": "A new couple and their families reckon with modern love amid culture clashes, societal expectations and generational differences.",
+      "type": "movie",
+      "year": 2023,
+      "release_date": "2023-01-20",
+      "imdb_id": "tt14826022",
+      "genre_names": [
+        [
+          "Comedy",
+          "Romance"
+        ]
+      ],
+      "user_rating": 5.8,
+      "critic_score": null,
+      "poster": "https://cdn.watchmode.com/posters/01644353_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/01644353_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=pCMHc-IFAB0",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/770546_pthumbnail_320.jpg",
+      "sources": [
+        {
+          "source_id": 203,
+          "name": "Netflix",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.netflix.com/watch/81194505",
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 547254,
+      "title": "Marc Maron: From Bleak to Dark",
+      "original_title": "Marc Maron: From Bleak to Dark",
+      "plot_overview": "Over the course of a hilarious and deeply personal hour, Maron explores such universal topics as getting older, antisemitism and faith, and the superiority of having cats over children - especially during the pandemic.",
+      "type": "tv_movie",
+      "year": 2023,
+      "release_date": "2023-02-11",
+      "imdb_id": "tt26453369",
+      "genre_names": [
+        [
+          "Comedy"
+        ]
+      ],
+      "user_rating": null,
+      "critic_score": null,
+      "poster": "https://cdn.watchmode.com/posters/0547254_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/0547254_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=zwYjFmP0boY",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/770392_pthumbnail_320.jpg",
+      "sources": [
+        {
+          "source_id": 387,
+          "name": "HBO MAX",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://play.hbomax.com/feature/urn:hbo:feature:GY9GkeQubqMLCwwEAAA2T",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 385,
+          "name": "HBO (Via Hulu)",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.hulu.com/watch/22b84c7b-9c8a-427f-90fa-e32e637e9869",
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 3185581,
+      "title": "Velma",
+      "original_title": "Velma",
+      "plot_overview": "Jinkies! This raucous reimagining of the Scooby-Doo franchise unravels the mysterious origins of Mystery, Inc. – as seen through the eyes of the gang’s beloved bespectacled detective Velma.",
+      "type": "tv_series",
+      "year": 2023,
+      "release_date": "2023-01-12",
+      "imdb_id": "tt14153790",
+      "genre_names": [
+        [
+          "Animation",
+          "Comedy"
+        ]
+      ],
+      "user_rating": 2.4,
+      "critic_score": null,
+      "poster": "https://cdn.watchmode.com/posters/03185581_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/03185581_bd_w780.jpg",
+      "trailer": "",
+      "trailer_thumbnail": "",
+      "sources": [
+        {
+          "source_id": 454,
+          "name": "HBO MAX Free",
           "type": "free",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.crackle.com/watch/8274/2518540",
-          "format": "SD",
-          "price": null,
+          "web_url": "https://play.hbomax.com/episode/urn:hbo:episode:GY5tqqwPmNMLCwwEAAAdP",
           "seasons": null,
           "episodes": null
         },
         {
-          "source_id": 225,
-          "name": "Popcornflix",
-          "type": "free",
+          "source_id": 387,
+          "name": "HBO MAX",
+          "type": "sub",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.popcornflix.com/?id=b3228e65-0457-43f0-95ed-705660dc2032",
-          "format": "HD",
-          "price": null,
+          "web_url": "https://play.hbomax.com/page/urn:hbo:page:GY5tqqwPmNMLCwwEAAAdP:type:episode",
           "seasons": null,
           "episodes": null
-        },
+        }
+      ]
+    },
+    {
+      "id": 3188539,
+      "title": "The Rehearsal",
+      "original_title": "The Rehearsal",
+      "plot_overview": "With a construction crew, a legion of actors, and seemingly unlimited resources, Nathan Fielder allows ordinary people to prepare for life’s biggest moments by “rehearsing” them in carefully crafted simulations of his own design. When a single misstep could shatter your entire world, why leave life to chance?",
+      "type": "tv_series",
+      "year": 2022,
+      "release_date": "2022-07-15",
+      "imdb_id": "tt10802170",
+      "genre_names": [
+        [
+          "Comedy",
+          "Documentary"
+        ]
+      ],
+      "user_rating": 8.5,
+      "critic_score": 90,
+      "poster": "https://cdn.watchmode.com/posters/03188539_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/03188539_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=2fjPFt8cpic",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/665485_pthumbnail_320.jpg",
+      "sources": [
         {
-          "source_id": 140,
-          "name": "Google Play",
+          "source_id": 349,
+          "name": "iTunes",
           "type": "buy",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://play.google.com/store/tv/show?id=oprpg0YYQ54&cdid=tvseason-v4eireUx-78w0qwaSvJfuA&gdid=tvepisode-3xIAfOCBXjQ&PAffiliateID=1101l32vn",
-          "format": "HD",
-          "price": 2.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 140,
-          "name": "Google Play",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://play.google.com/store/tv/show?id=oprpg0YYQ54&cdid=tvseason-v4eireUx-78w0qwaSvJfuA&gdid=tvepisode-3xIAfOCBXjQ&PAffiliateID=1101l32vn",
-          "format": "SD",
-          "price": 1.99,
+          "web_url": "https://tv.apple.com/us/episode/umc.cmc.6fgs7c549jnvdzbcujf1b52b?itsct=&itscg=30200&at=1010layx",
           "seasons": null,
           "episodes": null
         },
@@ -437,11 +1105,217 @@
           "name": "iTunes",
           "type": "buy",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://itunes.apple.com/us/tv-season/she-sang-hymns-out-of-tune/id1090588255?i=1121050816&at=10laHb",
-          "format": "HD",
-          "price": 2.99,
+          "web_url": "https://tv.apple.com/us/episode/umc.cmc.6fgs7c549jnvdzbcujf1b52b?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2100995",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2100995",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.8ff0b312-078e-4581-8e61-0134bf36c05e?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.8ff0b312-078e-4581-8e61-0134bf36c05e?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 387,
+          "name": "HBO MAX",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://play.hbomax.com/page/urn:hbo:page:GYr6ntQbIBrmiogEAAAAL:type:episode",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 385,
+          "name": "HBO (Via Hulu)",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.hulu.com/watch/18e03528-a234-431c-ab9f-10dab7e67986",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 443,
+          "name": "Spectrum On Demand",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://ondemand.spectrum.net/tv/hbo-max/22421936/the-rehearsal/",
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 1564613,
+      "title": "The Last of Us",
+      "original_title": "The Last of Us",
+      "plot_overview": "Twenty years after modern civilization has been destroyed, Joel, a hardened survivor, is hired to smuggle Ellie, a 14-year-old girl, out of an oppressive quarantine zone. What starts as a small job soon becomes a brutal, heartbreaking journey, as they both must traverse the United States and depend on each other for survival.",
+      "type": "tv_series",
+      "year": 2023,
+      "release_date": "2023-01-15",
+      "imdb_id": "tt3581920",
+      "genre_names": [
+        [
+          "Action & Adventure",
+          "Drama"
+        ]
+      ],
+      "user_rating": 9,
+      "critic_score": 80,
+      "poster": "https://cdn.watchmode.com/posters/01564613_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/01564613_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=fihwq2t4vTY",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/770318_pthumbnail_320.jpg",
+      "sources": [
+        {
+          "source_id": 454,
+          "name": "HBO MAX Free",
+          "type": "free",
+          "region": "US",
+          "web_url": "https://play.hbomax.com/episode/urn:hbo:episode:GYzEIKgUxEJo-ZwEAAAAC",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 387,
+          "name": "HBO MAX",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://play.hbomax.com/page/urn:hbo:page:GYzEIKgUxEJo-ZwEAAAAC:type:episode",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 442,
+          "name": "DirecTV On Demand",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.directv.com/movies/The-Last-of-Us-TkZPZ2cxbkc2M3VGVnBicjZ2R1BqUT09",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 385,
+          "name": "HBO (Via Hulu)",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.hulu.com/watch/9fb3aa1f-aea4-4e32-93cb-14a3226515f6",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 443,
+          "name": "Spectrum On Demand",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://ondemand.spectrum.net/tv/hbo-max/22672667/the-last-of-us/",
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 543949,
+      "title": "We Own This City",
+      "original_title": "We Own This City",
+      "plot_overview": "The story of the rise and fall of the Baltimore Police Department's Gun Trace Task Force — and the corruption and moral collapse that befell an American city in which the policies of drug prohibition and mass arrest were championed at the expense of actual police work.",
+      "type": "tv_miniseries",
+      "year": 2022,
+      "release_date": "2022-04-25",
+      "imdb_id": "tt14192504",
+      "genre_names": [
+        [
+          "Crime",
+          "Drama"
+        ]
+      ],
+      "user_rating": 7.9,
+      "critic_score": 88,
+      "poster": "https://cdn.watchmode.com/posters/0543949_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/0543949_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=Ig9BcW7gXvE",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/724743_pthumbnail_320.jpg",
+      "sources": [
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.dfc977b5-a05f-4ed8-9385-b8440bce3ce5?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.dfc977b5-a05f-4ed8-9385-b8440bce3ce5?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2031704",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2031704",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 140,
+          "name": "Google Play",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://play.google.com/store/tv/show?cdid=tvseason-9A5M8nBjGx0.P&gl=US&hl=en&id=NQPnzbyfEyU.P",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 140,
+          "name": "Google Play",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://play.google.com/store/tv/show?cdid=tvseason-9A5M8nBjGx0.P&gl=US&hl=en&id=NQPnzbyfEyU.P",
           "seasons": null,
           "episodes": null
         },
@@ -450,37 +1324,266 @@
           "name": "iTunes",
           "type": "buy",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://itunes.apple.com/us/tv-season/she-sang-hymns-out-of-tune/id1090588255?i=1121050816&at=10laHb",
-          "format": "SD",
-          "price": 1.99,
+          "web_url": "https://tv.apple.com/us/episode/umc.cmc.70ppm2x55tktvapqq3q19tv5o?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/episode/umc.cmc.70ppm2x55tktvapqq3q19tv5o?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/season-1/8d6kgwxnchp4",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/season-1/8d6kgwxnchp4",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 442,
+          "name": "DirecTV On Demand",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.directv.com/tv/We-Own-This-City-L08wR0w5cGJzaWlGby9GckxSaXJvUT09/Part-One-eTNIK2ZSYTc5MFg2eGNUbWdnbEpQQT09",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 387,
+          "name": "HBO MAX",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://play.hbomax.com/page/urn:hbo:page:GYh5pWwBbDsJjkAEAAAC7:type:episode",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 385,
+          "name": "HBO (Via Hulu)",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.hulu.com/watch/4924191c-8a3e-48c3-90ac-8c8a0833cac8",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 443,
+          "name": "Spectrum On Demand",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://ondemand.spectrum.net/tv/hbo-max/21660047/we-own-this-city/",
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 1504520,
+      "title": "Black Adam",
+      "original_title": "Black Adam",
+      "plot_overview": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
+      "type": "movie",
+      "year": 2022,
+      "release_date": "2022-10-19",
+      "imdb_id": "tt6443346",
+      "genre_names": [
+        [
+          "Action",
+          "Fantasy",
+          "Science Fiction"
+        ]
+      ],
+      "user_rating": 7.2,
+      "critic_score": 41,
+      "poster": "https://cdn.watchmode.com/posters/01504520_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/01504520_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=X0tOpBuYasI",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/709072_pthumbnail_320.jpg",
+      "sources": [
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.5a7724bb-c4e5-44d6-8dde-17abce9681c1?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.5a7724bb-c4e5-44d6-8dde-17abce9681c1?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.5a7724bb-c4e5-44d6-8dde-17abce9681c1?tag=",
           "seasons": null,
           "episodes": null
         },
         {
           "source_id": 307,
           "name": "VUDU",
-          "type": "buy",
+          "type": "rent",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.vudu.com/content/movies/details/content/759660",
-          "format": "HD",
-          "price": 2.99,
+          "web_url": "https://www.vudu.com/content/movies/details/content/2156448",
           "seasons": null,
           "episodes": null
         },
         {
           "source_id": 307,
           "name": "VUDU",
-          "type": "buy",
+          "type": "rent",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.vudu.com/content/movies/details/content/759660",
-          "format": "SD",
-          "price": 1.99,
+          "web_url": "https://www.vudu.com/content/movies/details/content/2156448",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2156448",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/Black%20Adam%20%2B%20Bonus/8D6KGWXZ51PF",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/Black%20Adam%20%2B%20Bonus/8D6KGWXZ51PF",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/Black%20Adam%20%2B%20Bonus/8D6KGWXZ51PF",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 140,
+          "name": "Google Play",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://play.google.com/store/movies/details/Black_Adam?gl=US&hl=en&id=XYiVF56FIpI.P",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 344,
+          "name": "YouTube",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.youtube.com/results?search_query=Black+Adam%2Bmovie",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 442,
+          "name": "DirecTV On Demand",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.directv.com/movies/Black-Adam-MXhIYVhtTnNNc1hrblIwTFA4WlNmdz09",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 442,
+          "name": "DirecTV On Demand",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.directv.com/movies/Black-Adam-MXhIYVhtTnNNc1hrblIwTFA4WlNmdz09",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 442,
+          "name": "DirecTV On Demand",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.directv.com/movies/Black-Adam-MXhIYVhtTnNNc1hrblIwTFA4WlNmdz09",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/movie/umc.cmc.59e2494tiq7gyhupr30n1mor1?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/movie/umc.cmc.59e2494tiq7gyhupr30n1mor1?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/movie/umc.cmc.59e2494tiq7gyhupr30n1mor1?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 443,
+          "name": "Spectrum On Demand",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://ondemand.spectrum.net/movies/19738510/black-adam/",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 443,
+          "name": "Spectrum On Demand",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://ondemand.spectrum.net/movies/19738510/black-adam/",
           "seasons": null,
           "episodes": null
         },
@@ -489,11 +1592,7 @@
           "name": "Amazon",
           "type": "buy",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.64b30663-366e-bb0d-1841-b99c7e1724ab?tag=",
-          "format": "SD",
-          "price": 1.99,
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.5a7724bb-c4e5-44d6-8dde-17abce9681c1?tag=",
           "seasons": null,
           "episodes": null
         },
@@ -502,11 +1601,660 @@
           "name": "Amazon",
           "type": "buy",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.64b30663-366e-bb0d-1841-b99c7e1724ab?tag=",
-          "format": "HD",
-          "price": 2.99,
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.5a7724bb-c4e5-44d6-8dde-17abce9681c1?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.5a7724bb-c4e5-44d6-8dde-17abce9681c1?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2156448",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2156448",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2156448",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/Black%20Adam%20%2B%20Bonus/8D6KGWXZ51PF",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/Black%20Adam%20%2B%20Bonus/8D6KGWXZ51PF",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/Black%20Adam%20%2B%20Bonus/8D6KGWXZ51PF",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 140,
+          "name": "Google Play",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://play.google.com/store/movies/details/Black_Adam?gl=US&hl=en&id=XYiVF56FIpI.P",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 344,
+          "name": "YouTube",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.youtube.com/results?search_query=Black+Adam%2Bmovie",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 442,
+          "name": "DirecTV On Demand",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.directv.com/movies/Black-Adam-MXhIYVhtTnNNc1hrblIwTFA4WlNmdz09",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 442,
+          "name": "DirecTV On Demand",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.directv.com/movies/Black-Adam-MXhIYVhtTnNNc1hrblIwTFA4WlNmdz09",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/movie/umc.cmc.59e2494tiq7gyhupr30n1mor1?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/movie/umc.cmc.59e2494tiq7gyhupr30n1mor1?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/movie/umc.cmc.59e2494tiq7gyhupr30n1mor1?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 387,
+          "name": "HBO MAX",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://play.hbomax.com/page/urn:hbo:page:GYzcHIw5407mRsAEAAAA4:type:feature",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 385,
+          "name": "HBO (Via Hulu)",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.hulu.com/watch/ab492ed4-7a94-4ffc-81d7-eebf85374358",
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 1623199,
+      "title": "The Guardians of the Galaxy: Holiday Special",
+      "original_title": "The Guardians of the Galaxy Holiday Special",
+      "plot_overview": "On a mission to make Christmas unforgettable for Quill, the Guardians head to Earth in search of the perfect present.",
+      "type": "tv_special",
+      "year": 2022,
+      "release_date": "2022-11-25",
+      "imdb_id": "tt13623136",
+      "genre_names": [
+        [
+          "Adventure",
+          "Comedy",
+          "Science Fiction"
+        ]
+      ],
+      "user_rating": 7.3,
+      "critic_score": null,
+      "poster": "https://cdn.watchmode.com/posters/01623199_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/01623199_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=HMx7a6YyTjI",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/771566_pthumbnail_320.jpg",
+      "sources": [
+        {
+          "source_id": 372,
+          "name": "Disney+",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.disneyplus.com/video/e6723fcd-bd6d-4c44-818f-dab2c7339d6d",
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 1560295,
+      "title": "Doctor Strange in the Multiverse of Madness",
+      "original_title": "Doctor Strange in the Multiverse of Madness",
+      "plot_overview": "Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.",
+      "type": "movie",
+      "year": 2022,
+      "release_date": "2022-05-04",
+      "imdb_id": "tt9419884",
+      "genre_names": [
+        [
+          "Action",
+          "Adventure",
+          "Fantasy"
+        ]
+      ],
+      "user_rating": 7.4,
+      "critic_score": 67,
+      "poster": "https://cdn.watchmode.com/posters/01560295_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/01560295_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=aWzlQ2N6qqg",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/739081_pthumbnail_320.jpg",
+      "sources": [
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.0e58461a-3cc1-4702-b4d1-59a5fe7644f7?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.0e58461a-3cc1-4702-b4d1-59a5fe7644f7?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.0e58461a-3cc1-4702-b4d1-59a5fe7644f7?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/Doctor%20Strange%20in%20the%20Multiverse%20of%20Madness/8D6KGWXZT7CL",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/Doctor%20Strange%20in%20the%20Multiverse%20of%20Madness/8D6KGWXZT7CL",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/Doctor%20Strange%20in%20the%20Multiverse%20of%20Madness/8D6KGWXZT7CL",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2028166",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2028166",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2028166",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 442,
+          "name": "DirecTV On Demand",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.directv.com/movies/Doctor-Strange-in-the-Multiverse-of-Madness-ckt1bWozanBlRlIxRFdPSklZL1Iwdz09",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 442,
+          "name": "DirecTV On Demand",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.directv.com/movies/Doctor-Strange-in-the-Multiverse-of-Madness-ckt1bWozanBlRlIxRFdPSklZL1Iwdz09",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/movie/umc.cmc.5f0mydwzevgd47pqxidz6sjf9?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/movie/umc.cmc.5f0mydwzevgd47pqxidz6sjf9?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/movie/umc.cmc.5f0mydwzevgd47pqxidz6sjf9?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 140,
+          "name": "Google Play",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://play.google.com/store/movies/details/Doctor_Strange_in_the_Multiverse_of_Madness?gl=US&hl=en&id=BsOEIdlvwD8.P",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 344,
+          "name": "YouTube",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.youtube.com/results?search_query=Doctor+Strange+in+the+Multiverse+of+Madness%2Bmovie",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 443,
+          "name": "Spectrum On Demand",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://ondemand.spectrum.net/movies/19128463/doctor-strange-in-the-multiverse-of-madness/",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 443,
+          "name": "Spectrum On Demand",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://ondemand.spectrum.net/movies/19128463/doctor-strange-in-the-multiverse-of-madness/",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.0e58461a-3cc1-4702-b4d1-59a5fe7644f7?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.0e58461a-3cc1-4702-b4d1-59a5fe7644f7?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.0e58461a-3cc1-4702-b4d1-59a5fe7644f7?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/Doctor%20Strange%20in%20the%20Multiverse%20of%20Madness/8D6KGWXZT7CL",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/Doctor%20Strange%20in%20the%20Multiverse%20of%20Madness/8D6KGWXZT7CL",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/Doctor%20Strange%20in%20the%20Multiverse%20of%20Madness/8D6KGWXZT7CL",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2028166",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2028166",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2028166",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 442,
+          "name": "DirecTV On Demand",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.directv.com/movies/Doctor-Strange-in-the-Multiverse-of-Madness-ckt1bWozanBlRlIxRFdPSklZL1Iwdz09",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 442,
+          "name": "DirecTV On Demand",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.directv.com/movies/Doctor-Strange-in-the-Multiverse-of-Madness-ckt1bWozanBlRlIxRFdPSklZL1Iwdz09",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/movie/umc.cmc.5f0mydwzevgd47pqxidz6sjf9?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/movie/umc.cmc.5f0mydwzevgd47pqxidz6sjf9?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/movie/umc.cmc.5f0mydwzevgd47pqxidz6sjf9?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 140,
+          "name": "Google Play",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://play.google.com/store/movies/details/Doctor_Strange_in_the_Multiverse_of_Madness?gl=US&hl=en&id=BsOEIdlvwD8.P",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 344,
+          "name": "YouTube",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.youtube.com/results?search_query=Doctor+Strange+in+the+Multiverse+of+Madness%2Bmovie",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 372,
+          "name": "Disney+",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.disneyplus.com/video/4925d08a-32c3-44b9-829b-e1624dc3b6f0",
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 3164369,
+      "title": "The Owl House",
+      "original_title": "The Owl House",
+      "plot_overview": "An animated fantasy-comedy series that follows Luz, a self-assured teenage girl who accidentally stumbles upon a portal to a magical world where she befriends a rebellious witch, Eda, and an adorably tiny warrior, King. Despite not having magical abilities, Luz pursues her dream of becoming a witch by serving as Eda's apprentice at the Owl House and ultimately finds a new family in an unlikely setting.",
+      "type": "tv_series",
+      "year": 2020,
+      "release_date": "2020-01-10",
+      "imdb_id": "tt8050756",
+      "genre_names": [
+        [
+          "Action & Adventure",
+          "Animation",
+          "Comedy",
+          "Family",
+          "Sci-Fi & Fantasy"
+        ]
+      ],
+      "user_rating": 8.6,
+      "critic_score": null,
+      "poster": "https://cdn.watchmode.com/posters/03164369_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/03164369_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=j0Xk_Wa6Ync",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/564467_pthumbnail_320.jpg",
+      "sources": [
+        {
+          "source_id": 443,
+          "name": "Spectrum On Demand",
+          "type": "free",
+          "region": "US",
+          "web_url": "https://ondemand.spectrum.net/tv/disney-channel/17655685/the-owl-house/",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.8c71198a-118a-4e8f-ac07-f1e0b9fd55ae?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.8c71198a-118a-4e8f-ac07-f1e0b9fd55ae?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/episode/umc.cmc.41oo137cgbyaitkrxzow3actp?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/episode/umc.cmc.41oo137cgbyaitkrxzow3actp?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 140,
+          "name": "Google Play",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://play.google.com/store/tv/show?id=8gvsxdq0kI_JZIHZcTK0xQ&cdid=tvseason-tpGtTFDNxmzw48UJE5bSQg&gdid=tvepisode-P87NojxAhuw&PAffiliateID=1101l32vn",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 140,
+          "name": "Google Play",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://play.google.com/store/tv/show?id=8gvsxdq0kI_JZIHZcTK0xQ&cdid=tvseason-tpGtTFDNxmzw48UJE5bSQg&gdid=tvepisode-P87NojxAhuw&PAffiliateID=1101l32vn",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 344,
+          "name": "YouTube",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.youtube.com/watch?v=P87NojxAhuw",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 344,
+          "name": "YouTube",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.youtube.com/watch?v=P87NojxAhuw",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/Season%203/8D6KGWZ00XR8?episode=8D6KGWZ00XR6",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/Season%203/8D6KGWZ00XR8?episode=8D6KGWZ00XR6",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 372,
+          "name": "Disney+",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.disneyplus.com/video/759aac9a-cd82-4afc-8cc5-f8a885962978",
           "seasons": null,
           "episodes": null
         },
@@ -515,1205 +2263,279 @@
           "name": "fuboTV",
           "type": "sub",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://link.fubo.tv/al1%3Fv%3D1%26a%3Dplay%26t%3Dprogram%26pid%3DEP021836870009%26o%3D0&irmp=1993008&irad=599307",
-          "format": "HD",
-          "price": null,
+          "web_url": "https://link.fubo.tv/al1%3Fv%3D1%26a%3Dplay%26t%3Dprogram%26pid%3DEP033745790046%26o%3D0&irmp=1993008&irad=599307",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 442,
+          "name": "DirecTV On Demand",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.directv.com/tv/The-Owl-House-cUxySzQrcEp2RkNGby9GckxSaXJvUT09/For-the-Future-dTkwaWJncjBGdHpnZU9oUmpxWGREdz09",
           "seasons": null,
           "episodes": null
         }
       ]
     },
     {
-      "id": 1586594,
-      "title": "Game of Thrones",
-      "original_title": "Game of Thrones",
-      "plot_overview": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
+      "id": 3159069,
+      "title": "Andor",
+      "original_title": "Star Wars: Andor",
+      "plot_overview": "The tale of the burgeoning rebellion against the Empire and how people and planets became involved. In an era filled with danger, deception and intrigue, Cassian Andor embarks on the path that is destined to turn him into a rebel hero.",
       "type": "tv_series",
-      "runtime_minutes": 60,
-      "year": 2011,
-      "end_year": 2019,
-      "release_date": "2011-04-17",
-      "imdb_id": "tt0944947",
-      "tmdb_id": 1399,
-      "tmdb_type": "tv",
-      "genres": [
-        40,
-        7,
-        39
-      ],
+      "year": 2022,
+      "release_date": "2022-09-21",
+      "imdb_id": "tt9253284",
       "genre_names": [
-        "Action & Adventure",
-        "Drama",
-        "Sci-Fi & Fantasy"
+        [
+          "Action & Adventure",
+          "Drama",
+          "Sci-Fi & Fantasy",
+          "War & Politics"
+        ]
       ],
-      "user_rating": 8.8,
-      "critic_score": 85,
-      "us_rating": "TV-MA",
-      "poster": "https://cdn.watchmode.com/posters/0345534_poster_w185.jpg",
-      "backdrop": "https://cdn.watchmode.com/backdrops/0345534_bd_w780.jpg",
-      "original_language": "en",
-      "similar_titles": [
-        315551,
-        3129354,
-        3101216,
-        392023,
-        3143011,
-        3135512,
-        329319,
-        3165325,
-        3173903,
-        383653,
-        3131293,
-        390013,
-        3121411,
-        3130921,
-        519834,
-        317379,
-        385447,
-        3106167,
-        3124749,
-        3119872,
-        52048,
-        314892,
-        36822,
-        3119816,
-        515852
-      ],
-      "networks": [
-        1
-      ],
-      "network_names": [
-        "HBO"
-      ],
-      "relevance_percentile": 99.19,
-      "trailer": "https://www.youtube.com/watch?v=BpJYNVhGf1s",
-      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/680943_pthumbnail_320.jpg",
+      "user_rating": 8.2,
+      "critic_score": null,
+      "poster": "https://cdn.watchmode.com/posters/03159069_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/03159069_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=wXPEKJoAf90",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/771506_pthumbnail_320.jpg",
       "sources": [
         {
-          "source_id": 454,
-          "name": "HBO MAX Free",
-          "type": "free",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://play.hbomax.com/episode/urn:hbo:episode:GVU4NYgvPQlFvjSoJAbmL",
-          "format": "4K",
-          "price": null,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 349,
-          "name": "iTunes",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://tv.apple.com/us/episode/the-iron-throne/umc.cmc.3t9qwzbey3f8unmyq0ycpuh5x?playableId=tvs.sbd.9001%3A1464467551&showId=umc.cmc.7htjb4sh74ynzxavta5boxuzq",
-          "format": "SD",
-          "price": 2.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 349,
-          "name": "iTunes",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://tv.apple.com/us/episode/the-iron-throne/umc.cmc.3t9qwzbey3f8unmyq0ycpuh5x?playableId=tvs.sbd.9001%3A1464467551&showId=umc.cmc.7htjb4sh74ynzxavta5boxuzq",
-          "format": "HD",
-          "price": 3.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 140,
-          "name": "Google Play",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://play.google.com/store/tv/show?cdid=tvseason-UfCpWvffVNdm6mj9MqZkXg&gl=US&hl=en&id=71Edzxe9gmo",
-          "format": "SD",
-          "price": 2.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 140,
-          "name": "Google Play",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://play.google.com/store/tv/show?cdid=tvseason-UfCpWvffVNdm6mj9MqZkXg&gl=US&hl=en&id=71Edzxe9gmo",
-          "format": "HD",
-          "price": null,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 307,
-          "name": "VUDU",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.vudu.com/content/movies/details/content/1101227",
-          "format": "SD",
-          "price": 2.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 307,
-          "name": "VUDU",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.vudu.com/content/movies/details/content/1101227",
-          "format": "HD",
-          "price": 3.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 307,
-          "name": "VUDU",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.vudu.com/content/movies/details/content/1101227",
-          "format": "4K",
-          "price": 4.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 24,
-          "name": "Amazon",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.6081f898-32dd-4222-8763-5cb96b4eb033?tag=",
-          "format": "SD",
-          "price": 2.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 24,
-          "name": "Amazon",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.6081f898-32dd-4222-8763-5cb96b4eb033?tag=",
-          "format": "HD",
-          "price": 3.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 398,
-          "name": "Microsoft Store",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.microsoft.com/en-us/p/season-8/8d6kgwxn3z03",
-          "format": "SD",
-          "price": 2.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 398,
-          "name": "Microsoft Store",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.microsoft.com/en-us/p/season-8/8d6kgwxn3z03",
-          "format": "HD",
-          "price": 3.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 387,
-          "name": "HBO MAX",
+          "source_id": 372,
+          "name": "Disney+",
           "type": "sub",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://play.hbomax.com/page/urn:hbo:page:GXJv1mw0FQagjKgEAAAHQ:type:episode",
-          "format": "4K",
-          "price": null,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 443,
-          "name": "Spectrum On Demand",
-          "type": "sub",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://ondemand.spectrum.net/tv/hbo-max/8553063/game-of-thrones/",
-          "format": "HD",
-          "price": null,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 385,
-          "name": "HBO (Via Hulu)",
-          "type": "sub",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.hulu.com/watch/76fef78c-80f0-4c9e-82d9-4e0484996381",
-          "format": "HD",
-          "price": null,
+          "web_url": "https://www.disneyplus.com/video/76c8bb56-7cf6-4950-ae78-4fc998329ac7",
           "seasons": null,
           "episodes": null
         }
       ]
     },
     {
-      "id": 1672293,
-      "title": "Game of Thrones",
-      "original_title": "Game of Thrones",
-      "plot_overview": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
+      "id": 3171572,
+      "title": "Willow",
+      "original_title": "Willow",
+      "plot_overview": "Many years after the events of the original film, legendary sorcerer Willow leads a group of misfit heroes on a dangerous rescue mission through a world beyond their wildest imaginations.",
       "type": "tv_series",
-      "runtime_minutes": 60,
-      "year": 2011,
-      "end_year": 2019,
-      "release_date": "2011-04-17",
-      "imdb_id": "tt0944947",
-      "tmdb_id": 1399,
-      "tmdb_type": "tv",
-      "genres": [
-        40,
-        7,
-        39
-      ],
+      "year": 2022,
+      "release_date": "2022-11-30",
+      "imdb_id": "tt10278918",
       "genre_names": [
-        "Action & Adventure",
-        "Drama",
-        "Sci-Fi & Fantasy"
+        [
+          "Action & Adventure",
+          "Drama",
+          "Sci-Fi & Fantasy"
+        ]
       ],
-      "user_rating": 8.8,
-      "critic_score": 85,
-      "us_rating": "TV-MA",
-      "poster": "https://cdn.watchmode.com/posters/0345534_poster_w185.jpg",
-      "backdrop": "https://cdn.watchmode.com/backdrops/0345534_bd_w780.jpg",
-      "original_language": "en",
-      "similar_titles": [
-        315551,
-        3129354,
-        3101216,
-        392023,
-        3143011,
-        3135512,
-        329319,
-        3165325,
-        3173903,
-        383653,
-        3131293,
-        390013,
-        3121411,
-        3130921,
-        519834,
-        317379,
-        385447,
-        3106167,
-        3124749,
-        3119872,
-        52048,
-        314892,
-        36822,
-        3119816,
-        515852
-      ],
-      "networks": [
-        1
-      ],
-      "network_names": [
-        "HBO"
-      ],
-      "relevance_percentile": 99.19,
-      "trailer": "https://www.youtube.com/watch?v=BpJYNVhGf1s",
-      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/680943_pthumbnail_320.jpg",
+      "user_rating": 6,
+      "critic_score": null,
+      "poster": "https://cdn.watchmode.com/posters/03171572_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/03171572_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=QGr9eD1Y4OQ",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/771132_pthumbnail_320.jpg",
       "sources": [
         {
-          "source_id": 454,
-          "name": "HBO MAX Free",
-          "type": "free",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://play.hbomax.com/episode/urn:hbo:episode:GVU4NYgvPQlFvjSoJAbmL",
-          "format": "4K",
-          "price": null,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 349,
-          "name": "iTunes",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://tv.apple.com/us/episode/the-iron-throne/umc.cmc.3t9qwzbey3f8unmyq0ycpuh5x?playableId=tvs.sbd.9001%3A1464467551&showId=umc.cmc.7htjb4sh74ynzxavta5boxuzq",
-          "format": "SD",
-          "price": 2.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 349,
-          "name": "iTunes",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://tv.apple.com/us/episode/the-iron-throne/umc.cmc.3t9qwzbey3f8unmyq0ycpuh5x?playableId=tvs.sbd.9001%3A1464467551&showId=umc.cmc.7htjb4sh74ynzxavta5boxuzq",
-          "format": "HD",
-          "price": 3.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 140,
-          "name": "Google Play",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://play.google.com/store/tv/show?cdid=tvseason-UfCpWvffVNdm6mj9MqZkXg&gl=US&hl=en&id=71Edzxe9gmo",
-          "format": "SD",
-          "price": 2.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 140,
-          "name": "Google Play",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://play.google.com/store/tv/show?cdid=tvseason-UfCpWvffVNdm6mj9MqZkXg&gl=US&hl=en&id=71Edzxe9gmo",
-          "format": "HD",
-          "price": null,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 307,
-          "name": "VUDU",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.vudu.com/content/movies/details/content/1101227",
-          "format": "SD",
-          "price": 2.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 307,
-          "name": "VUDU",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.vudu.com/content/movies/details/content/1101227",
-          "format": "HD",
-          "price": 3.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 307,
-          "name": "VUDU",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.vudu.com/content/movies/details/content/1101227",
-          "format": "4K",
-          "price": 4.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 24,
-          "name": "Amazon",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.6081f898-32dd-4222-8763-5cb96b4eb033?tag=",
-          "format": "SD",
-          "price": 2.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 24,
-          "name": "Amazon",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.6081f898-32dd-4222-8763-5cb96b4eb033?tag=",
-          "format": "HD",
-          "price": 3.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 398,
-          "name": "Microsoft Store",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.microsoft.com/en-us/p/season-8/8d6kgwxn3z03",
-          "format": "SD",
-          "price": 2.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 398,
-          "name": "Microsoft Store",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.microsoft.com/en-us/p/season-8/8d6kgwxn3z03",
-          "format": "HD",
-          "price": 3.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 387,
-          "name": "HBO MAX",
+          "source_id": 372,
+          "name": "Disney+",
           "type": "sub",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://play.hbomax.com/page/urn:hbo:page:GXJv1mw0FQagjKgEAAAHQ:type:episode",
-          "format": "4K",
-          "price": null,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 443,
-          "name": "Spectrum On Demand",
-          "type": "sub",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://ondemand.spectrum.net/tv/hbo-max/8553063/game-of-thrones/",
-          "format": "HD",
-          "price": null,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 385,
-          "name": "HBO (Via Hulu)",
-          "type": "sub",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.hulu.com/watch/76fef78c-80f0-4c9e-82d9-4e0484996381",
-          "format": "HD",
-          "price": null,
+          "web_url": "https://www.disneyplus.com/video/ca7247e7-4d1f-418c-a894-5a6a20d24376",
           "seasons": null,
           "episodes": null
         }
       ]
     },
     {
-      "id": 539605,
-      "title": "Game of Thrones",
-      "original_title": "Game of Thrones",
-      "plot_overview": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
-      "type": "tv_series",
-      "runtime_minutes": 60,
-      "year": 2011,
-      "end_year": 2019,
-      "release_date": "2011-04-17",
-      "imdb_id": "tt0944947",
-      "tmdb_id": 1399,
-      "tmdb_type": "tv",
-      "genres": [
-        40,
-        7,
-        39
-      ],
+      "id": 1550054,
+      "title": "Obi-Wan Kenobi",
+      "original_title": "Obi-Wan Kenobi",
+      "plot_overview": "During the reign of the Galactic Empire, former Jedi Master, Obi-Wan Kenobi, embarks on a crucial mission to confront allies turned enemies and face the wrath of the Empire.",
+      "type": "tv_miniseries",
+      "year": 2022,
+      "release_date": "2022-05-26",
+      "imdb_id": "tt8466564",
       "genre_names": [
-        "Action & Adventure",
-        "Drama",
-        "Sci-Fi & Fantasy"
+        [
+          "Action & Adventure",
+          "Drama",
+          "Sci-Fi & Fantasy"
+        ]
       ],
-      "user_rating": 8.8,
-      "critic_score": 85,
-      "us_rating": "TV-MA",
-      "poster": "https://cdn.watchmode.com/posters/0345534_poster_w185.jpg",
-      "backdrop": "https://cdn.watchmode.com/backdrops/0345534_bd_w780.jpg",
-      "original_language": "en",
-      "similar_titles": [
-        315551,
-        3129354,
-        3101216,
-        392023,
-        3143011,
-        3135512,
-        329319,
-        3165325,
-        3173903,
-        383653,
-        3131293,
-        390013,
-        3121411,
-        3130921,
-        519834,
-        317379,
-        385447,
-        3106167,
-        3124749,
-        3119872,
-        52048,
-        314892,
-        36822,
-        3119816,
-        515852
-      ],
-      "networks": [
-        1
-      ],
-      "network_names": [
-        "HBO"
-      ],
-      "relevance_percentile": 99.19,
-      "trailer": "https://www.youtube.com/watch?v=BpJYNVhGf1s",
-      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/680943_pthumbnail_320.jpg",
+      "user_rating": 7.1,
+      "critic_score": null,
+      "poster": "https://cdn.watchmode.com/posters/01550054_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/01550054_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=TWTfhyvzTx0",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/763068_pthumbnail_320.jpg",
       "sources": [
         {
-          "source_id": 454,
-          "name": "HBO MAX Free",
-          "type": "free",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://play.hbomax.com/episode/urn:hbo:episode:GVU4NYgvPQlFvjSoJAbmL",
-          "format": "4K",
-          "price": null,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 349,
-          "name": "iTunes",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://tv.apple.com/us/episode/the-iron-throne/umc.cmc.3t9qwzbey3f8unmyq0ycpuh5x?playableId=tvs.sbd.9001%3A1464467551&showId=umc.cmc.7htjb4sh74ynzxavta5boxuzq",
-          "format": "SD",
-          "price": 2.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 349,
-          "name": "iTunes",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://tv.apple.com/us/episode/the-iron-throne/umc.cmc.3t9qwzbey3f8unmyq0ycpuh5x?playableId=tvs.sbd.9001%3A1464467551&showId=umc.cmc.7htjb4sh74ynzxavta5boxuzq",
-          "format": "HD",
-          "price": 3.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 140,
-          "name": "Google Play",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://play.google.com/store/tv/show?cdid=tvseason-UfCpWvffVNdm6mj9MqZkXg&gl=US&hl=en&id=71Edzxe9gmo",
-          "format": "SD",
-          "price": 2.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 140,
-          "name": "Google Play",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://play.google.com/store/tv/show?cdid=tvseason-UfCpWvffVNdm6mj9MqZkXg&gl=US&hl=en&id=71Edzxe9gmo",
-          "format": "HD",
-          "price": null,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 307,
-          "name": "VUDU",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.vudu.com/content/movies/details/content/1101227",
-          "format": "SD",
-          "price": 2.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 307,
-          "name": "VUDU",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.vudu.com/content/movies/details/content/1101227",
-          "format": "HD",
-          "price": 3.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 307,
-          "name": "VUDU",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.vudu.com/content/movies/details/content/1101227",
-          "format": "4K",
-          "price": 4.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 24,
-          "name": "Amazon",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.6081f898-32dd-4222-8763-5cb96b4eb033?tag=",
-          "format": "SD",
-          "price": 2.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 24,
-          "name": "Amazon",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.6081f898-32dd-4222-8763-5cb96b4eb033?tag=",
-          "format": "HD",
-          "price": 3.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 398,
-          "name": "Microsoft Store",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.microsoft.com/en-us/p/season-8/8d6kgwxn3z03",
-          "format": "SD",
-          "price": 2.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 398,
-          "name": "Microsoft Store",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.microsoft.com/en-us/p/season-8/8d6kgwxn3z03",
-          "format": "HD",
-          "price": 3.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 387,
-          "name": "HBO MAX",
+          "source_id": 372,
+          "name": "Disney+",
           "type": "sub",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://play.hbomax.com/page/urn:hbo:page:GXJv1mw0FQagjKgEAAAHQ:type:episode",
-          "format": "4K",
-          "price": null,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 443,
-          "name": "Spectrum On Demand",
-          "type": "sub",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://ondemand.spectrum.net/tv/hbo-max/8553063/game-of-thrones/",
-          "format": "HD",
-          "price": null,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 385,
-          "name": "HBO (Via Hulu)",
-          "type": "sub",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.hulu.com/watch/76fef78c-80f0-4c9e-82d9-4e0484996381",
-          "format": "HD",
-          "price": null,
+          "web_url": "https://www.disneyplus.com/video/e8d5ea97-e72f-49dd-b617-c3a35000f598",
           "seasons": null,
           "episodes": null
         }
       ]
     },
     {
-      "id": 4146033,
-      "title": "Game of Thrones",
-      "original_title": "Game of Thrones",
-      "plot_overview": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
-      "type": "tv_series",
-      "runtime_minutes": 60,
-      "year": 2011,
-      "end_year": 2019,
-      "release_date": "2011-04-17",
-      "imdb_id": "tt0944947",
-      "tmdb_id": 1399,
-      "tmdb_type": "tv",
-      "genres": [
-        40,
-        7,
-        39
-      ],
+      "id": 1589116,
+      "title": "Moon Knight",
+      "original_title": "Moon Knight",
+      "plot_overview": "When Steven Grant, a mild-mannered gift-shop employee, becomes plagued with blackouts and memories of another life, he discovers he has dissociative identity disorder and shares a body with mercenary Marc Spector. As Steven/Marc’s enemies converge upon them, they must navigate their complex identities while thrust into a deadly mystery among the powerful gods of Egypt.",
+      "type": "tv_miniseries",
+      "year": 2022,
+      "release_date": "2022-03-30",
+      "imdb_id": "tt10234724",
       "genre_names": [
-        "Action & Adventure",
-        "Drama",
-        "Sci-Fi & Fantasy"
+        [
+          "Action & Adventure",
+          "Mystery",
+          "Sci-Fi & Fantasy"
+        ]
       ],
-      "user_rating": 8.8,
-      "critic_score": 85,
-      "us_rating": "TV-MA",
-      "poster": "https://cdn.watchmode.com/posters/0345534_poster_w185.jpg",
-      "backdrop": "https://cdn.watchmode.com/backdrops/0345534_bd_w780.jpg",
-      "original_language": "en",
-      "similar_titles": [
-        315551,
-        3129354,
-        3101216,
-        392023,
-        3143011,
-        3135512,
-        329319,
-        3165325,
-        3173903,
-        383653,
-        3131293,
-        390013,
-        3121411,
-        3130921,
-        519834,
-        317379,
-        385447,
-        3106167,
-        3124749,
-        3119872,
-        52048,
-        314892,
-        36822,
-        3119816,
-        515852
-      ],
-      "networks": [
-        1
-      ],
-      "network_names": [
-        "HBO"
-      ],
-      "relevance_percentile": 99.19,
-      "trailer": "https://www.youtube.com/watch?v=BpJYNVhGf1s",
-      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/680943_pthumbnail_320.jpg",
+      "user_rating": 7.3,
+      "critic_score": null,
+      "poster": "https://cdn.watchmode.com/posters/01589116_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/01589116_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=x7Krla_UxRg",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/768282_pthumbnail_320.jpg",
       "sources": [
         {
-          "source_id": 454,
-          "name": "HBO MAX Free",
-          "type": "free",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://play.hbomax.com/episode/urn:hbo:episode:GVU4NYgvPQlFvjSoJAbmL",
-          "format": "4K",
-          "price": null,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 349,
-          "name": "iTunes",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://tv.apple.com/us/episode/the-iron-throne/umc.cmc.3t9qwzbey3f8unmyq0ycpuh5x?playableId=tvs.sbd.9001%3A1464467551&showId=umc.cmc.7htjb4sh74ynzxavta5boxuzq",
-          "format": "SD",
-          "price": 2.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 349,
-          "name": "iTunes",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://tv.apple.com/us/episode/the-iron-throne/umc.cmc.3t9qwzbey3f8unmyq0ycpuh5x?playableId=tvs.sbd.9001%3A1464467551&showId=umc.cmc.7htjb4sh74ynzxavta5boxuzq",
-          "format": "HD",
-          "price": 3.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 140,
-          "name": "Google Play",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://play.google.com/store/tv/show?cdid=tvseason-UfCpWvffVNdm6mj9MqZkXg&gl=US&hl=en&id=71Edzxe9gmo",
-          "format": "SD",
-          "price": 2.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 140,
-          "name": "Google Play",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://play.google.com/store/tv/show?cdid=tvseason-UfCpWvffVNdm6mj9MqZkXg&gl=US&hl=en&id=71Edzxe9gmo",
-          "format": "HD",
-          "price": null,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 307,
-          "name": "VUDU",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.vudu.com/content/movies/details/content/1101227",
-          "format": "SD",
-          "price": 2.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 307,
-          "name": "VUDU",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.vudu.com/content/movies/details/content/1101227",
-          "format": "HD",
-          "price": 3.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 307,
-          "name": "VUDU",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.vudu.com/content/movies/details/content/1101227",
-          "format": "4K",
-          "price": 4.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 24,
-          "name": "Amazon",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.6081f898-32dd-4222-8763-5cb96b4eb033?tag=",
-          "format": "SD",
-          "price": 2.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 24,
-          "name": "Amazon",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.6081f898-32dd-4222-8763-5cb96b4eb033?tag=",
-          "format": "HD",
-          "price": 3.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 398,
-          "name": "Microsoft Store",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.microsoft.com/en-us/p/season-8/8d6kgwxn3z03",
-          "format": "SD",
-          "price": 2.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 398,
-          "name": "Microsoft Store",
-          "type": "buy",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.microsoft.com/en-us/p/season-8/8d6kgwxn3z03",
-          "format": "HD",
-          "price": 3.99,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 387,
-          "name": "HBO MAX",
+          "source_id": 372,
+          "name": "Disney+",
           "type": "sub",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://play.hbomax.com/page/urn:hbo:page:GXJv1mw0FQagjKgEAAAHQ:type:episode",
-          "format": "4K",
-          "price": null,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 443,
-          "name": "Spectrum On Demand",
-          "type": "sub",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://ondemand.spectrum.net/tv/hbo-max/8553063/game-of-thrones/",
-          "format": "HD",
-          "price": null,
-          "seasons": null,
-          "episodes": null
-        },
-        {
-          "source_id": 385,
-          "name": "HBO (Via Hulu)",
-          "type": "sub",
-          "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.hulu.com/watch/76fef78c-80f0-4c9e-82d9-4e0484996381",
-          "format": "HD",
-          "price": null,
+          "web_url": "https://www.disneyplus.com/video/29853478-684c-4f05-af88-ac364c90ffdc",
           "seasons": null,
           "episodes": null
         }
       ]
     },
     {
-      "id": 345534,
-      "title": "Breaking Bad",
-      "original_title": "Breaking Bad",
-      "plot_overview": "When Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
+      "id": 3182001,
+      "title": "National Treasure: Edge of History",
+      "original_title": "National Treasure: Edge of History",
+      "plot_overview": "While searching for history's greatest treasure, Jess Valenzuela unburies her family's secret past.",
       "type": "tv_series",
-      "runtime_minutes": 45,
-      "year": 2008,
-      "end_year": 2013,
-      "release_date": "2008-01-20",
-      "imdb_id": "tt0903747",
-      "tmdb_id": 1396,
-      "tmdb_type": "tv",
-      "genres": [
-        7
-      ],
+      "year": 2022,
+      "release_date": "2022-12-14",
+      "imdb_id": "tt12580982",
       "genre_names": [
-        "Drama"
+        [
+          "Action & Adventure"
+        ]
       ],
-      "user_rating": 9.3,
-      "critic_score": 85,
-      "us_rating": "TV-MA",
-      "poster": "https://cdn.watchmode.com/posters/03173903_poster_w185.jpg",
-      "backdrop": "https://cdn.watchmode.com/backdrops/03173903_bd_w780.jpg",
-      "original_language": "en",
-      "similar_titles": [
-        3131293,
-        390224,
-        3129354,
-        340865,
-        3109684,
-        316177,
-        383653,
-        345534,
-        3130921,
-        3140350,
-        3129647,
-        329319,
-        330948,
-        313542,
-        350372,
-        395040,
-        327970,
-        357367,
-        314425,
-        3124749,
-        3120630,
-        3119940,
-        537712,
-        3137595,
-        3108916
-      ],
-      "networks": [
-        8
-      ],
-      "network_names": [
-        "AMC"
-      ],
-      "relevance_percentile": 98.81,
-      "trailer": "https://www.youtube.com/watch?v=XZ8daibM3AE",
-      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/536008_pthumbnail_320.jpg",
+      "user_rating": 5.7,
+      "critic_score": null,
+      "poster": "https://cdn.watchmode.com/posters/03182001_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/03182001_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=QOTKWuIlmh8",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/771247_pthumbnail_320.jpg",
       "sources": [
         {
-          "source_id": 349,
-          "name": "iTunes",
-          "type": "buy",
+          "source_id": 372,
+          "name": "Disney+",
+          "type": "sub",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://itunes.apple.com/us/tv-season/felina/id665386598?i=717897170&at=10laHb",
-          "format": "SD",
-          "price": 1.99,
+          "web_url": "https://www.disneyplus.com/video/13358564-b11d-432e-afd8-b54276617a88",
           "seasons": null,
           "episodes": null
-        },
+        }
+      ]
+    },
+    {
+      "id": 543772,
+      "title": "The Santa Clauses",
+      "original_title": "The Santa Clauses",
+      "plot_overview": "After nearly three decades of being Santa Claus, Scott Calvin’s magic begins to falter. As he struggles to keep up with the demands of the job, he discovers a new clause that forces him to rethink his role as Santa and as a father.",
+      "type": "tv_miniseries",
+      "year": 2022,
+      "release_date": "2022-11-16",
+      "imdb_id": "tt17047510",
+      "genre_names": [
+        [
+          "Comedy",
+          "Family"
+        ]
+      ],
+      "user_rating": 6.4,
+      "critic_score": null,
+      "poster": "https://cdn.watchmode.com/posters/0543772_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/0543772_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=6Of1wKwGVPo",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/771116_pthumbnail_320.jpg",
+      "sources": [
         {
-          "source_id": 349,
-          "name": "iTunes",
-          "type": "buy",
+          "source_id": 372,
+          "name": "Disney+",
+          "type": "sub",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://itunes.apple.com/us/tv-season/felina/id665386598?i=717897170&at=10laHb",
-          "format": "HD",
-          "price": 2.99,
+          "web_url": "https://www.disneyplus.com/video/3a474e1b-e1e4-4eb8-8f62-75728cb65bf2",
           "seasons": null,
           "episodes": null
-        },
+        }
+      ]
+    },
+    {
+      "id": 1491945,
+      "title": "Black Panther: Wakanda Forever",
+      "original_title": "Black Panther: Wakanda Forever",
+      "plot_overview": "Queen Ramonda, Shuri, M’Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T’Challa’s death.  As the Wakandans strive to embrace their next chapter, the heroes must band together with the help of War Dog Nakia and Everett Ross and forge a new path for the kingdom of Wakanda.",
+      "type": "movie",
+      "year": 2022,
+      "release_date": "2022-11-09",
+      "imdb_id": "tt9114286",
+      "genre_names": [
+        [
+          "Action",
+          "Adventure",
+          "Science Fiction"
+        ]
+      ],
+      "user_rating": 7.7,
+      "critic_score": 76,
+      "poster": "https://cdn.watchmode.com/posters/01491945_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/01491945_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=FtLjCEVf3NQ",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/723919_pthumbnail_320.jpg",
+      "sources": [
         {
           "source_id": 140,
           "name": "Google Play",
           "type": "buy",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://play.google.com/store/tv/show?id=L2wfgMDGiBk&cdid=tvseason-QloudPiQicc&gdid=tvepisode-9VYSQkZP4Gc&PAffiliateID=1101l32vn",
-          "format": "HD",
-          "price": 2.99,
+          "web_url": "https://play.google.com/store/movies/details/Black_Panther_Wakanda_Forever?gl=US&hl=en&id=TbReCRj2mh0.P",
           "seasons": null,
           "episodes": null
         },
         {
-          "source_id": 140,
-          "name": "Google Play",
+          "source_id": 24,
+          "name": "Amazon",
           "type": "buy",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://play.google.com/store/tv/show?id=L2wfgMDGiBk&cdid=tvseason-QloudPiQicc&gdid=tvepisode-9VYSQkZP4Gc&PAffiliateID=1101l32vn",
-          "format": "SD",
-          "price": 1.99,
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.72894cd7-1c6a-4699-b2cd-07849ce66e3d?tag=",
           "seasons": null,
           "episodes": null
         },
         {
-          "source_id": 307,
-          "name": "VUDU",
+          "source_id": 24,
+          "name": "Amazon",
           "type": "buy",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.vudu.com/content/movies/details/content/460653",
-          "format": "HD",
-          "price": 2.99,
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.72894cd7-1c6a-4699-b2cd-07849ce66e3d?tag=",
           "seasons": null,
           "episodes": null
         },
         {
-          "source_id": 307,
-          "name": "VUDU",
+          "source_id": 24,
+          "name": "Amazon",
           "type": "buy",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.vudu.com/content/movies/details/content/460653",
-          "format": "SD",
-          "price": 1.99,
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.72894cd7-1c6a-4699-b2cd-07849ce66e3d?tag=",
           "seasons": null,
           "episodes": null
         },
@@ -1722,11 +2544,704 @@
           "name": "YouTube",
           "type": "buy",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.youtube.com/watch?v=9VYSQkZP4Gc",
-          "format": "HD",
-          "price": 2.99,
+          "web_url": "https://www.youtube.com/results?search_query=Black+Panther%3A+Wakanda+Forever%2Bmovie",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/Black%20Panther%3A%20Wakanda%20Forever/8D6KGWXZ9CDT",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/Black%20Panther%3A%20Wakanda%20Forever/8D6KGWXZ9CDT",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/Black%20Panther%3A%20Wakanda%20Forever/8D6KGWXZ9CDT",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/movie/umc.cmc.59vx3z5d5qah7pmcofi1tmss8?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/movie/umc.cmc.59vx3z5d5qah7pmcofi1tmss8?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/movie/umc.cmc.59vx3z5d5qah7pmcofi1tmss8?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2193225",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2193225",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2193225",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 442,
+          "name": "DirecTV On Demand",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.directv.com/movies/Black-Panther-Wakanda-Forever-cmVpWmpDdVo4SWxkN1lNMU9FTjBJdz09",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 442,
+          "name": "DirecTV On Demand",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.directv.com/movies/Black-Panther-Wakanda-Forever-cmVpWmpDdVo4SWxkN1lNMU9FTjBJdz09",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 372,
+          "name": "Disney+",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.disneyplus.com/video/ff19f41b-a092-42fd-9728-0a3e3f601b74",
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 3181732,
+      "title": "Our Flag Means Death",
+      "original_title": "Our Flag Means Death",
+      "plot_overview": "After trading in the seemingly charmed life of a gentleman for one of a swashbuckling buccaneer, Stede Bonnet becomes captain of the pirate ship Revenge. Struggling to earn the respect of his potentially mutinous crew, Stede’s fortunes change after a fateful run-in with the infamous Captain Blackbeard. Stede and crew attempt to get their ship together and survive life on the high seas.",
+      "type": "tv_series",
+      "year": 2022,
+      "release_date": "2022-03-03",
+      "imdb_id": "tt11000902",
+      "genre_names": [
+        [
+          "Action & Adventure",
+          "Comedy",
+          "Drama"
+        ]
+      ],
+      "user_rating": 8.2,
+      "critic_score": 81,
+      "poster": "https://cdn.watchmode.com/posters/03181732_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/03181732_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=xFE8ASwxmpA",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/760977_pthumbnail_320.jpg",
+      "sources": [
+        {
+          "source_id": 387,
+          "name": "HBO MAX",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://play.hbomax.com/page/urn:hbo:page:GYgzPlQ2ca6BJSgEAAAAF:type:episode",
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 3155860,
+      "title": "Hunters",
+      "original_title": "Hunters",
+      "plot_overview": "A diverse band of Nazi Hunters living in 1977 New York City discover that hundreds of high ranking Nazi officials are living among us and conspiring to create a Fourth Reich in the U.S. The eclectic team of Hunters set out on a bloody quest to bring the Nazis to justice and thwart their new genocidal plans.",
+      "type": "tv_series",
+      "year": 2020,
+      "release_date": "2020-02-20",
+      "imdb_id": "tt7456722",
+      "genre_names": [
+        [
+          "Crime",
+          "Drama"
+        ]
+      ],
+      "user_rating": 7,
+      "critic_score": 60,
+      "poster": "https://cdn.watchmode.com/posters/03155860_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/03155860_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=HBGkjmfIzAw",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/675303_pthumbnail_320.jpg",
+      "sources": [
+        {
+          "source_id": 26,
+          "name": "Amazon Prime",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.32b6651f-2a9c-4c5a-be2e-bf5eb113acdc?tag=&autoplay=1",
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 3181868,
+      "title": "The Devil's Hour",
+      "original_title": "The Devil's Hour",
+      "plot_overview": "Lucy wakes every night at exactly 3:33am. Nothing in her life has made sense for a long time. But the answers are out there, somewhere, at the end of a trail of brutal murders.",
+      "type": "tv_series",
+      "year": 2022,
+      "release_date": "2022-10-28",
+      "imdb_id": "tt14379784",
+      "genre_names": [
+        [
+          "Crime",
+          "Drama",
+          "Mystery",
+          "Sci-Fi & Fantasy"
+        ]
+      ],
+      "user_rating": 7.6,
+      "critic_score": null,
+      "poster": "https://cdn.watchmode.com/posters/03181868_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/03181868_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=lOdtnMlKIYw",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/734699_pthumbnail_320.jpg",
+      "sources": [
+        {
+          "source_id": 26,
+          "name": "Amazon Prime",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.a813f162-50e2-484a-a3c3-59c9e3f59109?tag=&autoplay=1",
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 3186880,
+      "title": "The English",
+      "original_title": "The English",
+      "plot_overview": "An aristocratic Englishwoman, Lady Cornelia Locke, arrives into the new and wild landscape of the West to wreak revenge on the man she sees as responsible for the death of her son.",
+      "type": "tv_miniseries",
+      "year": 2022,
+      "release_date": "2022-11-10",
+      "imdb_id": "tt11771270",
+      "genre_names": [
+        [
+          "Drama",
+          "Western"
+        ]
+      ],
+      "user_rating": 7.7,
+      "critic_score": null,
+      "poster": "https://cdn.watchmode.com/posters/03186880_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/03186880_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=DmcsV8_BefI",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/743228_pthumbnail_320.jpg",
+      "sources": [
+        {
+          "source_id": 26,
+          "name": "Amazon Prime",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.7460ba2f-feb5-49f0-9e0e-70f6efe5d2a3?tag=&autoplay=1",
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 3165325,
+      "title": "House of the Dragon",
+      "original_title": "House of the Dragon",
+      "plot_overview": "The Targaryen dynasty is at the absolute apex of its power, with more than 15 dragons under their yoke. Most empires crumble from such heights. In the case of the Targaryens, their slow fall begins when King Viserys breaks with a century of tradition by naming his daughter Rhaenyra heir to the Iron Throne. But when Viserys later fathers a son, the court is shocked when Rhaenyra retains her status as his heir, and seeds of division sow friction across the realm.",
+      "type": "tv_series",
+      "year": 2022,
+      "release_date": "2022-08-21",
+      "imdb_id": "tt11198330",
+      "genre_names": [
+        [
+          "Action & Adventure",
+          "Drama",
+          "Sci-Fi & Fantasy"
+        ]
+      ],
+      "user_rating": 8.3,
+      "critic_score": null,
+      "poster": "https://cdn.watchmode.com/posters/03165325_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/03165325_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=DotnJ7tTA34",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/764155_pthumbnail_320.jpg",
+      "sources": [
+        {
+          "source_id": 454,
+          "name": "HBO MAX Free",
+          "type": "free",
+          "region": "US",
+          "web_url": "https://play.hbomax.com/episode/urn:hbo:episode:GYsYeyA2EnHmangEAAAPc",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.10e43ad8-dcab-41ba-9cfc-934f88d356f8?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.10e43ad8-dcab-41ba-9cfc-934f88d356f8?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/episode/umc.cmc.5gtqa8ravv4c5rympz7abxuha?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/episode/umc.cmc.5gtqa8ravv4c5rympz7abxuha?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/season-1/8d6kgwxzqln7",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/season-1/8d6kgwxzqln7",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2125212",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2125212",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2125212",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 387,
+          "name": "HBO MAX",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://play.hbomax.com/page/urn:hbo:page:GYsYeyA2EnHmangEAAAPc:type:episode",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 442,
+          "name": "DirecTV On Demand",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.directv.com/tv/House-of-the-Dragon-alR1UW9oQnhVQXFGby9GckxSaXJvUT09/The-Heirs-of-the-Dragon-aFpENjdhdWhaZHRFU3JyVU1pNG0zdz09",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 385,
+          "name": "HBO (Via Hulu)",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.hulu.com/watch/6a1bd93a-f4aa-4e20-8ea7-53f889097d72",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 443,
+          "name": "Spectrum On Demand",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://ondemand.spectrum.net/tv/hbo-max/22710587/the-official-game-of-thrones-podcast-house-of-the-dragon/",
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 1583908,
+      "title": "The Menu",
+      "original_title": "The Menu",
+      "plot_overview": "A young couple travels to a remote island to eat at an exclusive restaurant where the chef has prepared a lavish menu, with some shocking surprises.",
+      "type": "movie",
+      "year": 2022,
+      "release_date": "2022-11-17",
+      "imdb_id": "tt9764362",
+      "genre_names": [
+        [
+          "Horror",
+          "Thriller"
+        ]
+      ],
+      "user_rating": 7.5,
+      "critic_score": 80,
+      "poster": "https://cdn.watchmode.com/posters/01583908_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/01583908_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=C_uTkUGcHv4",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/719883_pthumbnail_320.jpg",
+      "sources": [
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.48b4f72f-efdd-412c-90c3-ac4526c58e7b?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.48b4f72f-efdd-412c-90c3-ac4526c58e7b?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.48b4f72f-efdd-412c-90c3-ac4526c58e7b?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/The%20Menu/8D6KGWXZ60MP",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/The%20Menu/8D6KGWXZ60MP",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/The%20Menu/8D6KGWXZ60MP",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/movie/umc.cmc.138krmen28x7fjwrmm6c7l5gm?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/movie/umc.cmc.138krmen28x7fjwrmm6c7l5gm?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/movie/umc.cmc.138krmen28x7fjwrmm6c7l5gm?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 140,
+          "name": "Google Play",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://play.google.com/store/movies/details/The_Menu?gl=US&hl=en&id=Y5qlO0HSA1M.P",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/The-Menu/2195398",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/The-Menu/2195398",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/The-Menu/2195398",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 344,
+          "name": "YouTube",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.youtube.com/results?search_query=The+Menu%2Bmovie",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 442,
+          "name": "DirecTV On Demand",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.directv.com/movies/The-Menu-M1ZkQlQwTjhZK1BrblIwTFA4WlNmdz09",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 442,
+          "name": "DirecTV On Demand",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.directv.com/movies/The-Menu-M1ZkQlQwTjhZK1BrblIwTFA4WlNmdz09",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 443,
+          "name": "Spectrum On Demand",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://ondemand.spectrum.net/movies/22080192/the-menu/",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 443,
+          "name": "Spectrum On Demand",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://ondemand.spectrum.net/movies/22080192/the-menu/",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.48b4f72f-efdd-412c-90c3-ac4526c58e7b?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.48b4f72f-efdd-412c-90c3-ac4526c58e7b?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.48b4f72f-efdd-412c-90c3-ac4526c58e7b?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/The%20Menu/8D6KGWXZ60MP",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/The%20Menu/8D6KGWXZ60MP",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/The%20Menu/8D6KGWXZ60MP",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/movie/umc.cmc.138krmen28x7fjwrmm6c7l5gm?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/movie/umc.cmc.138krmen28x7fjwrmm6c7l5gm?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://tv.apple.com/us/movie/umc.cmc.138krmen28x7fjwrmm6c7l5gm?itsct=&itscg=30200&at=1010layx",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 140,
+          "name": "Google Play",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://play.google.com/store/movies/details/The_Menu?gl=US&hl=en&id=Y5qlO0HSA1M.P",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/The-Menu/2195398",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/The-Menu/2195398",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/The-Menu/2195398",
           "seasons": null,
           "episodes": null
         },
@@ -1735,11 +3250,329 @@
           "name": "YouTube",
           "type": "buy",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.youtube.com/watch?v=9VYSQkZP4Gc",
-          "format": "SD",
-          "price": 1.99,
+          "web_url": "https://www.youtube.com/results?search_query=The+Menu%2Bmovie",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 442,
+          "name": "DirecTV On Demand",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.directv.com/movies/The-Menu-M1ZkQlQwTjhZK1BrblIwTFA4WlNmdz09",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 442,
+          "name": "DirecTV On Demand",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.directv.com/movies/The-Menu-M1ZkQlQwTjhZK1BrblIwTFA4WlNmdz09",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 442,
+          "name": "DirecTV On Demand",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.directv.com/movies/The-Menu-M1ZkQlQwTjhZK1BrblIwTFA4WlNmdz09",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 387,
+          "name": "HBO MAX",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://play.hbomax.com/page/urn:hbo:page:GY6HeoQwl0MPCLwEAAAgW:type:feature",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 385,
+          "name": "HBO (Via Hulu)",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.hulu.com/watch/f12c46ed-2536-4995-a759-574c790456c4",
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 1532981,
+      "title": "The Batman",
+      "original_title": "The Batman",
+      "plot_overview": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.",
+      "type": "movie",
+      "year": 2022,
+      "release_date": "2022-03-02",
+      "imdb_id": "tt1877830",
+      "genre_names": [
+        [
+          "Crime",
+          "Mystery",
+          "Thriller"
+        ]
+      ],
+      "user_rating": 8,
+      "critic_score": 79,
+      "poster": "https://cdn.watchmode.com/posters/01532981_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/01532981_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=mqqft2x_Aa4",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/760950_pthumbnail_320.jpg",
+      "sources": [
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://itunes.apple.com/us/movie/the-batman/id1606824145?uo=4&at=10laHb",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://itunes.apple.com/us/movie/the-batman/id1606824145?uo=4&at=10laHb",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://itunes.apple.com/us/movie/the-batman/id1606824145?uo=4&at=10laHb",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 140,
+          "name": "Google Play",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://play.google.com/store/movies/details/The_Batman?gl=US&hl=en&id=raGhyHR3YvY.P",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 140,
+          "name": "Google Play",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://play.google.com/store/movies/details/The_Batman?gl=US&hl=en&id=raGhyHR3YvY.P",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2008348",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2008348",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2008348",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.25b4fec7-31b3-445a-87e9-26b5f31a06b8?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.25b4fec7-31b3-445a-87e9-26b5f31a06b8?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 24,
+          "name": "Amazon",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.25b4fec7-31b3-445a-87e9-26b5f31a06b8?tag=",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/The%20Batman/8D6KGWXN6KRP",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/The%20Batman/8D6KGWXN6KRP",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/The%20Batman/8D6KGWXN6KRP",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 344,
+          "name": "YouTube",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.youtube.com/results?search_query=The+Batman%2Bmovie",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 344,
+          "name": "YouTube",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.youtube.com/results?search_query=The+Batman%2Bmovie",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 442,
+          "name": "DirecTV On Demand",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.directv.com/movies/The-Batman-ZU5DaFZJR2dKcy9TcEM0RjdEYjZqdz09",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 442,
+          "name": "DirecTV On Demand",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://www.directv.com/movies/The-Batman-ZU5DaFZJR2dKcy9TcEM0RjdEYjZqdz09",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 443,
+          "name": "Spectrum On Demand",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://ondemand.spectrum.net/movies/17013073/the-batman/",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 443,
+          "name": "Spectrum On Demand",
+          "type": "rent",
+          "region": "US",
+          "web_url": "https://ondemand.spectrum.net/movies/17013073/the-batman/",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://itunes.apple.com/us/movie/the-batman/id1606824145?uo=4&at=10laHb",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://itunes.apple.com/us/movie/the-batman/id1606824145?uo=4&at=10laHb",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 349,
+          "name": "iTunes",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://itunes.apple.com/us/movie/the-batman/id1606824145?uo=4&at=10laHb",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 140,
+          "name": "Google Play",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://play.google.com/store/movies/details/The_Batman?gl=US&hl=en&id=raGhyHR3YvY.P",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 140,
+          "name": "Google Play",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://play.google.com/store/movies/details/The_Batman?gl=US&hl=en&id=raGhyHR3YvY.P",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2008348",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2008348",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 307,
+          "name": "VUDU",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.vudu.com/content/movies/details/content/2008348",
           "seasons": null,
           "episodes": null
         },
@@ -1748,11 +3581,7 @@
           "name": "Amazon",
           "type": "buy",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.9aa9f77a-dc91-b172-9a35-b9a6f34728b8?tag=",
-          "format": "SD",
-          "price": 1.99,
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.25b4fec7-31b3-445a-87e9-26b5f31a06b8?tag=",
           "seasons": null,
           "episodes": null
         },
@@ -1761,11 +3590,7 @@
           "name": "Amazon",
           "type": "buy",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.9aa9f77a-dc91-b172-9a35-b9a6f34728b8?tag=",
-          "format": "4K",
-          "price": 3.99,
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.25b4fec7-31b3-445a-87e9-26b5f31a06b8?tag=",
           "seasons": null,
           "episodes": null
         },
@@ -1774,11 +3599,7 @@
           "name": "Amazon",
           "type": "buy",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.9aa9f77a-dc91-b172-9a35-b9a6f34728b8?tag=",
-          "format": "HD",
-          "price": 2.99,
+          "web_url": "https://www.amazon.com/gp/video/detail/amzn1.dv.gti.25b4fec7-31b3-445a-87e9-26b5f31a06b8?tag=",
           "seasons": null,
           "episodes": null
         },
@@ -1787,11 +3608,7 @@
           "name": "Microsoft Store",
           "type": "buy",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.microsoft.com/en-us/p/season-5/8d6kgwzlcwj3",
-          "format": "SD",
-          "price": 1.99,
+          "web_url": "https://www.microsoft.com/en-us/p/The%20Batman/8D6KGWXN6KRP",
           "seasons": null,
           "episodes": null
         },
@@ -1800,56 +3617,182 @@
           "name": "Microsoft Store",
           "type": "buy",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.microsoft.com/en-us/p/season-5/8d6kgwzlcwj3",
-          "format": "HD",
-          "price": 2.99,
+          "web_url": "https://www.microsoft.com/en-us/p/The%20Batman/8D6KGWXN6KRP",
           "seasons": null,
           "episodes": null
         },
+        {
+          "source_id": 398,
+          "name": "Microsoft Store",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.microsoft.com/en-us/p/The%20Batman/8D6KGWXN6KRP",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 344,
+          "name": "YouTube",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.youtube.com/results?search_query=The+Batman%2Bmovie",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 344,
+          "name": "YouTube",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.youtube.com/results?search_query=The+Batman%2Bmovie",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 442,
+          "name": "DirecTV On Demand",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.directv.com/movies/The-Batman-ZU5DaFZJR2dKcy9TcEM0RjdEYjZqdz09",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 442,
+          "name": "DirecTV On Demand",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.directv.com/movies/The-Batman-ZU5DaFZJR2dKcy9TcEM0RjdEYjZqdz09",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 442,
+          "name": "DirecTV On Demand",
+          "type": "buy",
+          "region": "US",
+          "web_url": "https://www.directv.com/movies/The-Batman-ZU5DaFZJR2dKcy9TcEM0RjdEYjZqdz09",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 387,
+          "name": "HBO MAX",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://play.hbomax.com/page/urn:hbo:page:GYiDbSAmIpMNvYAEAAAAI:type:feature",
+          "seasons": null,
+          "episodes": null
+        },
+        {
+          "source_id": 385,
+          "name": "HBO (Via Hulu)",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.hulu.com/watch/54faddb3-3315-4e1f-9f86-3d55409831db",
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 1596405,
+      "title": "Glass Onion: A Knives Out Mystery",
+      "original_title": "Glass Onion: A Knives Out Mystery",
+      "plot_overview": "World-famous detective Benoit Blanc heads to Greece to peel back the layers of a mystery surrounding a tech billionaire and his eclectic crew of friends.",
+      "type": "movie",
+      "year": 2022,
+      "release_date": "2022-11-23",
+      "imdb_id": "tt11564570",
+      "genre_names": [
+        [
+          "Comedy",
+          "Crime",
+          "Mystery"
+        ]
+      ],
+      "user_rating": 7.3,
+      "critic_score": 86,
+      "poster": "https://cdn.watchmode.com/posters/01596405_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/01596405_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=gj5ibYSz8C0",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/770586_pthumbnail_320.jpg",
+      "sources": [
         {
           "source_id": 203,
           "name": "Netflix",
           "type": "sub",
           "region": "US",
-          "ios_url": "Deeplinks available for paid plans only.",
-          "android_url": "Deeplinks available for paid plans only.",
-          "web_url": "https://www.netflix.com/watch/70236428",
-          "format": "4K",
-          "price": null,
+          "web_url": "http://www.netflix.com/title/81458416",
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 3182711,
+      "title": "1899",
+      "original_title": "1899",
+      "plot_overview": "Passengers on an immigrant ship traveling to the new continent get caught in a mysterious riddle when they find a second vessel adrift on the open sea.",
+      "type": "tv_series",
+      "year": 2022,
+      "release_date": "2022-11-17",
+      "imdb_id": "tt9319668",
+      "genre_names": [
+        [
+          "Drama",
+          "Mystery"
+        ]
+      ],
+      "user_rating": 7.4,
+      "critic_score": null,
+      "poster": "https://cdn.watchmode.com/posters/03182711_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/03182711_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=p7OUQ9U2qIw",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/771384_pthumbnail_320.jpg",
+      "sources": [
+        {
+          "source_id": 203,
+          "name": "Netflix",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.netflix.com/watch/80234663",
+          "seasons": null,
+          "episodes": null
+        }
+      ]
+    },
+    {
+      "id": 3190574,
+      "title": "Lockwood & Co",
+      "original_title": "Lockwood & Co.",
+      "plot_overview": "A girl with extraordinary psychic abilities joins two gifted teen boys at a small ghost-hunting agency to fight the many deadly spirits haunting London.",
+      "type": "tv_series",
+      "year": 2023,
+      "release_date": "2023-01-27",
+      "imdb_id": "tt13802576",
+      "genre_names": [
+        [
+          "Sci-Fi & Fantasy"
+        ]
+      ],
+      "user_rating": 7.5,
+      "critic_score": null,
+      "poster": "https://cdn.watchmode.com/posters/03190574_poster_w185.jpg",
+      "backdrop": "https://cdn.watchmode.com/backdrops/03190574_bd_w780.jpg",
+      "trailer": "https://www.youtube.com/watch?v=7-iYxGLpQzo",
+      "trailer_thumbnail": "https://cdn.watchmode.com/video_thumbnails/771030_pthumbnail_320.jpg",
+      "sources": [
+        {
+          "source_id": 203,
+          "name": "Netflix",
+          "type": "sub",
+          "region": "US",
+          "web_url": "https://www.netflix.com/watch/81281047",
           "seasons": null,
           "episodes": null
         }
       ]
     }
-  ],
-  "users": [
-    {
-      "user": {
-        "email": "mus@mus.es",
-        "userName": "mus",
-        "password": "1234"
-      },
-      "id": 1
-    },
-    {
-      "user": {
-        "favourites": [
-          1586594,
-          1586594
-        ]
-      },
-      "id": 2
-    },
-    {
-      "user": {
-        "email": "morty@m.es",
-        "userName": "morty",
-        "password": "1234"
-      },
-      "id": 3
-    }
   ]
-
 }
